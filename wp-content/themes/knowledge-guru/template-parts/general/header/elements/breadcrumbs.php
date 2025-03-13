@@ -1,0 +1,1 @@
+<div class="kbg-breadcrumbs"><?php kbg_the_breadcrumbs(); ?></div>

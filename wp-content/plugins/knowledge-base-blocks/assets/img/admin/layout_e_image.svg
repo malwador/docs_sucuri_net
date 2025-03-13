@@ -1,0 +1,39 @@
+<svg width="320" height="240" viewBox="0 0 320 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="320" height="240" fill="white"/>
+<rect opacity="0.15" x="30" y="23" width="120" height="50" rx="4" fill="#0092CC"/>
+<path d="M30 27C30 24.7909 31.7909 23 34 23H82V73H34C31.7909 73 30 71.2091 30 69V27Z" fill="#0092CC"/>
+<rect x="94" y="41" width="45" height="2" fill="#0092CC"/>
+<rect x="94" y="45" width="45" height="2" fill="#0092CC"/>
+<rect x="94" y="49" width="45" height="2" fill="#0092CC"/>
+<rect x="94" y="53" width="31" height="2" fill="#0092CC"/>
+<rect opacity="0.15" x="170" y="23" width="120" height="50" rx="4" fill="#0092CC"/>
+<path d="M170 27C170 24.7909 171.791 23 174 23H222V73H174C171.791 73 170 71.2091 170 69V27Z" fill="#0092CC"/>
+<rect x="234" y="41" width="45" height="2" fill="#0092CC"/>
+<rect x="234" y="45" width="45" height="2" fill="#0092CC"/>
+<rect x="234" y="49" width="45" height="2" fill="#0092CC"/>
+<rect x="234" y="53" width="31" height="2" fill="#0092CC"/>
+<rect opacity="0.15" x="30" y="94" width="120" height="50" rx="4" fill="#0092CC"/>
+<path d="M30 98C30 95.7909 31.7909 94 34 94H82V144H34C31.7909 144 30 142.209 30 140V98Z" fill="#0092CC"/>
+<rect x="94" y="112" width="45" height="2" fill="#0092CC"/>
+<rect x="94" y="116" width="45" height="2" fill="#0092CC"/>
+<rect x="94" y="120" width="45" height="2" fill="#0092CC"/>
+<rect x="94" y="124" width="31" height="2" fill="#0092CC"/>
+<rect opacity="0.15" x="170" y="94" width="120" height="50" rx="4" fill="#0092CC"/>
+<path d="M170 98C170 95.7909 171.791 94 174 94H222V144H174C171.791 144 170 142.209 170 140V98Z" fill="#0092CC"/>
+<rect x="234" y="112" width="45" height="2" fill="#0092CC"/>
+<rect x="234" y="116" width="45" height="2" fill="#0092CC"/>
+<rect x="234" y="120" width="45" height="2" fill="#0092CC"/>
+<rect x="234" y="124" width="31" height="2" fill="#0092CC"/>
+<rect opacity="0.15" x="30" y="165" width="120" height="50" rx="4" fill="#0092CC"/>
+<path d="M30 169C30 166.791 31.7909 165 34 165H82V215H34C31.7909 215 30 213.209 30 211V169Z" fill="#0092CC"/>
+<rect x="94" y="183" width="45" height="2" fill="#0092CC"/>
+<rect x="94" y="187" width="45" height="2" fill="#0092CC"/>
+<rect x="94" y="191" width="45" height="2" fill="#0092CC"/>
+<rect x="94" y="195" width="31" height="2" fill="#0092CC"/>
+<rect opacity="0.15" x="170" y="165" width="120" height="50" rx="4" fill="#0092CC"/>
+<path d="M170 169C170 166.791 171.791 165 174 165H222V215H174C171.791 215 170 213.209 170 211V169Z" fill="#0092CC"/>
+<rect x="234" y="183" width="45" height="2" fill="#0092CC"/>
+<rect x="234" y="187" width="45" height="2" fill="#0092CC"/>
+<rect x="234" y="191" width="45" height="2" fill="#0092CC"/>
+<rect x="234" y="195" width="31" height="2" fill="#0092CC"/>
+</svg>

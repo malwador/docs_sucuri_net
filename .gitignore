@@ -1,0 +1,70 @@
+# Git Ignore file for Sucuri.net @ pagely
+
+# WP Configuration
+/wp-config.php
+# WP Configuration for ddev
+/wp-config-ddev.php 
+# Pagely Database file 
+/db-config.php 
+#GoDaddy Configuration file
+/gd-config.php
+
+# Main WP core files (pagely has this hardcoded so we need to exclude these to avoid issues
+/wp-admin/
+/wp-content/index.php
+/wp-content/languages
+/wp-content/plugins/index.php
+/wp-content/themes/index.php
+/wp-includes/
+/index.php
+/license.txt
+/readme.html
+/wp-*.php
+/wp-config-sample.php
+/xmlrpc.php
+
+# Example themes
+/wp-content/themes/twenty*/
+
+# Example plugin
+/wp-content/plugins/hello.php
+
+# Uploads
+#/wp-content/uploads/
+
+# Log files
+*.log
+
+# Sucuri quarantine hidden folder
+.sucuriquarantine/
+
+# other files and directories
+.tmb
+/sucuri-54740af7f910fb69301bd2d010cfd7b0.php
+
+#caching
+/wp-content/cache/*
+/wp-content/db.php
+/wp-content/object-cache.php
+
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+#System and temp files
+*.sql
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+*.swp
+.idea
+A
+Auto-updated
+New

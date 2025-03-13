@@ -1,0 +1,23 @@
+.af-green {
+    color: rgb(78, 228, 78);
+    font-weight: 500;
+}
+.af-red {
+    color: rgb(241, 70, 70);
+    font-weight: 500;
+}
+.af-icon-smiley,
+.af-icon-thumbs {
+    display: flex;
+    align-items: center;
+}
+.af-icon-smiley input,
+.af-icon-thumbs input {
+    margin-top: 1px !important;
+}
+.af-icon-smiley svg,
+.af-icon-thumbs svg {
+    max-width: 40px;
+    max-height: 40px;
+    margin-top: -2px;
+}

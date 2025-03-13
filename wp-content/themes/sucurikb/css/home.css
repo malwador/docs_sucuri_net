@@ -1,0 +1,222 @@
+/* BODY */
+
+body.home div#content{
+max-width: 100%;
+    margin-top: -60px;
+}
+
+.sucuri-docs-homepage-search{
+padding-top: 40px
+}
+
+.sucuri-docs-homepage-search form {
+    background-color: transparent;
+    background-image: url(/wp-content/uploads/sprite.png);
+    background-position: -175px -866px;
+    background-repeat: no-repeat;
+}
+
+.sucuri-docs-homepage-search input
+{
+padding-left: 40px;
+    background-color: transparent;
+}
+
+/* TITLE */
+
+header.entry-header{
+display:none
+}
+
+.sucuri-docs-homepage-title { 
+    background: url(/wp-content/uploads/background-texture.jpg) center center;
+    background-size: cover;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.sucuri-docs-homepage-title h1{
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 3;
+}
+
+
+/* CONTENT */
+
+.sucuri-docs-categories{
+    padding: 75px 15px;
+}
+
+.sucuri-docs-categories span.button, .sucuri-docs-videos-banner span.button {
+    border-radius: 5em;
+    font-size: 13px;
+    padding: 7px 20px;
+    border: 1px solid #b5b5b5;
+    color: #8a8a8a;
+    margin-top: 17px;
+    background-color: transparent;
+}
+.sucuri-docs-categories span.button:hover, .sucuri-docs-videos-banner span.button:hover {
+    background-color: #969696;
+    border-color: #969696;
+    color: #fff;
+}
+
+.sucuri-docs-categories h2, .sucuri-docs-videos-banner h2 {
+font-size: 23px;
+    line-height: 1.3;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 20px;
+   color: #333
+}
+
+.sucuri-docs-categories a {
+   color: #333
+}
+
+.sucuri-docs-categories p {
+    color: gray;
+}
+
+.sucuri-docs-categories .cell {
+text-align: center;
+}
+
+.img {
+    display: block;
+    background-position: center;
+    background-image: url(/wp-content/uploads/sprite.png);
+    background-repeat: no-repeat;
+}
+
+.img.website-monitoring {
+    height: 71px;
+    background-position: center -38px;
+}
+
+.img.antivirus{height:71px;background-position:center -110px}
+.img.firewall{height:71px;background-position:center -188px}
+.img.backups{height:71px;background-position:center -264px}
+.img.encyclopedia{height:71px;background-position:center -350px}
+.img.plugins{height:71px;background-position:center -1320px}
+.sucuri-docs-categories .billing {position:relative; }
+.sucuri-docs-categories .billing * {position:relative;z-index:2}
+.sucuri-docs-categories .billing a {position:static}
+.sucuri-docs-categories .billing h2{margin-top:90px}
+.img.billing {margin:auto;width:400px;height:230px;background-position:center -610px;position:absolute;top:-140px;left:0;right:0;background-color:#fff;z-index:1; }
+
+hr.dashed-line{
+    display: block;
+    max-width: 1600px;
+    padding: 30px;
+    border-top: 3px #bfbfbf dashed;
+    margin: 0 auto;
+    padding: 0;
+height: 0;
+background-color: transparent;
+    border-bottom: 0;
+}
+
+.sucuri-docs-videos-banner {
+    background: url(/wp-content/uploads/background-texture.jpg) center center;
+    background-size: cover;
+    padding: 75px 15px;
+    font-size: 15px;
+    line-height: 1.4;
+   color: grey;
+}
+
+.sucuri-docs-videos-banner .person {
+    position: absolute;
+    z-index: 1;
+    margin-top: -120px;
+}
+
+.sucuri-docs-videos-banner .img.play {
+    position: absolute;
+    right: 33%;
+    margin: auto;
+    z-index: 2;
+    width: 100px;
+    height: 72px;
+    background-position: center -489px;
+    margin-top: 60px;
+}
+
+.sucuri-docs-popular-articles.grid-container {
+margin-top: 50px;
+}
+
+.sucuri-docs-popular-articles ul.block-list li:first-child {
+    border-top: 1px #bfbfbf solid;
+}
+.sucuri-docs-popular-articles ul.block-list li {
+    line-height: 65px;
+    border-bottom: 1px #bfbfbf solid;
+}
+.sucuri-docs-popular-articles li {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    list-style: none;
+}
+
+.sucuri-docs-popular-articles ul.block-list a {
+    color: #333;
+}
+
+.sucuri-docs-popular-articles ul.block-list a:hover {
+text-decoration: underline;
+}
+
+.sucuri-docs-popular-articles h2{
+    font-size: 23px;
+    line-height: 1.3;
+    font-weight: 700;
+}
+
+.sucuri-docs-popular-articles ul{
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+}
+
+.img.labs, .img.blog{ 
+display: inline-block;
+    width: 76px;
+    height: 76px;
+    margin-top: 20px;
+}
+
+.img.labs{ 
+background-position: center -975px;
+}
+
+.img.blog{ 
+    background-position: center -1070px;
+}
+
+.sucuri-docs-more-resources {
+padding: 75px 15px;
+}
+
+.sucuri-docs-more-resources p {
+    color: gray;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+/* responsive adjustments */
+@media(max-width:1024px){
+.sucuri-docs-homepage-title h1{line-height: 1.4em;padding: 40px 0;}
+.grid-container.sucuri-docs-categories .cell {padding: 40px 0;}
+.sucuri-docs-videos-banner .person{margin-top: -100px;}
+}
+@media(max-width:550px){
+.sucuri-docs-homepage-title h1{line-height: 1.4em}
+.sucuri-docs-videos-banner .cell.large-4{display:none}
+.grid-margin-x>.small-3 {margin-bottom: 100px;}
+body{overflow-x: hidden;overscroll-behavior-x: unset;}
+}

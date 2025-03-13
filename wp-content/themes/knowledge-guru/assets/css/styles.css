@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'knowledgeguru-font';
+  src:  url ('../fonts/knowledgeguru-font.eot?kh4d9n');
+  src:  url ('../fonts/knowledgeguru-font.eot?kh4d9n#iefix') format('embedded-opentype'),
+    url ('../fonts/knowledgeguru-font.ttf?kh4d9n') format('truetype'),
+    url ('../fonts/knowledgeguru-font.woff?kh4d9n') format('woff'),
+    url ('../fonts/knowledgeguru-font.svg?kh4d9n#knowledgeguru-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+ [class*="kg-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'knowledgeguru-font' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.kg-left:before {
+  content: "\e900";
+}
+.kg-right:before {
+  content: "\e901";
+}
+.kg-down:before {
+  content: "\e903";
+}
+.kg-search:before {
+  content: "\e906";
+}
+.kg-close:before {
+  content: "\e907";
+}
+.kg-menu:before {
+  content: "\e908";
+}
+

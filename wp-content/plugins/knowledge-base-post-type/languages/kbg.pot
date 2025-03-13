@@ -1,0 +1,278 @@
+# Copyright (C) 2021 kbg
+# This file is distributed under the same license as the kbg package.
+msgid ""
+msgstr ""
+"Project-Id-Version: kbg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: inc/helpers.php:166
+msgid "1 Day"
+msgstr ""
+
+#: inc/helpers.php:167
+msgid "3 Days"
+msgstr ""
+
+#: inc/helpers.php:168
+msgid "1 Week"
+msgstr ""
+
+#: inc/helpers.php:169
+msgid "1 Month"
+msgstr ""
+
+#: inc/helpers.php:170
+msgid "3 Months"
+msgstr ""
+
+#: inc/helpers.php:171
+msgid "6 Months"
+msgstr ""
+
+#: inc/helpers.php:172
+msgid "1 Year"
+msgstr ""
+
+#: inc/helpers.php:173
+msgid "All time"
+msgstr ""
+
+#: inc/register-cpt.php:23, inc/register-cpt.php:24, inc/register-cpt.php:25
+msgid "KB Category"
+msgstr ""
+
+#: inc/register-cpt.php:26
+msgid "All KB Categories"
+msgstr ""
+
+#: inc/register-cpt.php:27
+msgid "Parent KB Category"
+msgstr ""
+
+#: inc/register-cpt.php:28
+msgid "KB Category:"
+msgstr ""
+
+#: inc/register-cpt.php:29
+msgid "Edit KB Category"
+msgstr ""
+
+#: inc/register-cpt.php:30
+msgid "Update KB Category"
+msgstr ""
+
+#: inc/register-cpt.php:31
+msgid "Add New KB Category"
+msgstr ""
+
+#: inc/register-cpt.php:32
+msgid "New KB Category Name"
+msgstr ""
+
+#: inc/register-cpt.php:59, inc/register-cpt.php:61
+msgid "KB Tags"
+msgstr ""
+
+#: inc/register-cpt.php:60
+msgid "KB Tag"
+msgstr ""
+
+#: inc/register-cpt.php:62
+msgid "All KB Tags"
+msgstr ""
+
+#: inc/register-cpt.php:63
+msgid "Parent KB Tag"
+msgstr ""
+
+#: inc/register-cpt.php:64
+msgid "KB Tag:"
+msgstr ""
+
+#: inc/register-cpt.php:65
+msgid "Edit KB Tag"
+msgstr ""
+
+#: inc/register-cpt.php:66
+msgid "Update KB Tag"
+msgstr ""
+
+#: inc/register-cpt.php:67
+msgid "Add New KB Tag"
+msgstr ""
+
+#: inc/register-cpt.php:68
+msgid "New KB Tag Name"
+msgstr ""
+
+#: inc/register-cpt.php:94, inc/register-cpt.php:95
+msgid "Knowledge Base"
+msgstr ""
+
+#: inc/register-cpt.php:96
+msgid "Add New"
+msgstr ""
+
+#: inc/register-cpt.php:97
+msgid "All Articles"
+msgstr ""
+
+#: inc/register-cpt.php:98
+msgid "Add New Docs"
+msgstr ""
+
+#: inc/register-cpt.php:99
+msgid "Edit Article"
+msgstr ""
+
+#: inc/register-cpt.php:100
+msgid "New Article"
+msgstr ""
+
+#: inc/register-cpt.php:101
+msgid "View Article"
+msgstr ""
+
+#: inc/register-cpt.php:102
+msgid "Search Article"
+msgstr ""
+
+#: inc/register-cpt.php:103
+msgid "No Article found"
+msgstr ""
+
+#: inc/register-cpt.php:104
+msgid "No Article Found In Trash"
+msgstr ""
+
+#: inc/register-cpt.php:187, inc/register-cpt.php:242
+msgid "Image"
+msgstr ""
+
+#: inc/register-cpt.php:195, inc/register-cpt.php:211, inc/register-cpt.php:251, inc/register-cpt.php:269
+msgid "Upload"
+msgstr ""
+
+#: inc/register-cpt.php:196, inc/register-cpt.php:212, inc/register-cpt.php:252, inc/register-cpt.php:270
+msgid "Clear"
+msgstr ""
+
+#: inc/register-cpt.php:199, inc/register-cpt.php:254
+msgid "Upload image"
+msgstr ""
+
+#: inc/register-cpt.php:203, inc/register-cpt.php:260
+msgid "Icon"
+msgstr ""
+
+#: inc/register-cpt.php:215, inc/register-cpt.php:272
+msgid "Upload icon"
+msgstr ""
+
+#: inc/widgets/class-widget-kbg-category.php:26
+msgid "Display your knowledge base categories with this widget"
+msgstr ""
+
+#: inc/widgets/class-widget-kbg-category.php:31
+msgid "Knowledge Base Categories"
+msgstr ""
+
+#: inc/widgets/class-widget-kbg-category.php:34
+msgid "Categories"
+msgstr ""
+
+#: inc/widgets/class-widget-kbg-category.php:86, inc/widgets/class-widget-kbg-posts.php:170, inc/widgets/class-widget-knowledge-base-articles.php:162
+msgid "Title"
+msgstr ""
+
+#: inc/widgets/class-widget-kbg-category.php:101
+msgid "Show post count?"
+msgstr ""
+
+#: inc/widgets/class-widget-kbg-posts.php:23
+msgid "Display posts with thumbnail image"
+msgstr ""
+
+#: inc/widgets/class-widget-kbg-posts.php:25
+msgid "Knowledge Base Posts"
+msgstr ""
+
+#: inc/widgets/class-widget-kbg-posts.php:28
+msgid "Posts"
+msgstr ""
+
+#: inc/widgets/class-widget-kbg-posts.php:175, inc/widgets/class-widget-knowledge-base-articles.php:167
+msgid "Number of posts to show"
+msgstr ""
+
+#: inc/widgets/class-widget-kbg-posts.php:189, inc/widgets/class-widget-knowledge-base-articles.php:177
+msgid "Or choose manually"
+msgstr ""
+
+#: inc/widgets/class-widget-kbg-posts.php:191, inc/widgets/class-widget-knowledge-base-articles.php:179
+msgid "Specify post ids separated by comma if you want to select only those articles. i.e. 213,32,12,45 Note: you can also choose pages as well as custom post types"
+msgstr ""
+
+#: inc/widgets/class-widget-kbg-posts.php:201
+msgid "Auto detect category"
+msgstr ""
+
+#: inc/widgets/class-widget-kbg-posts.php:202
+msgid "If sidebar is used on single post template, display post from current post category"
+msgstr ""
+
+#: inc/widgets/class-widget-kbg-posts.php:206, inc/widgets/class-widget-knowledge-base-articles.php:194
+msgid "Tagged with"
+msgstr ""
+
+#: inc/widgets/class-widget-kbg-posts.php:208, inc/widgets/class-widget-knowledge-base-articles.php:196
+msgid "Specify one or more tags separated by comma. i.e. life, cooking, funny moments"
+msgstr ""
+
+#: inc/widgets/class-widget-kbg-posts.php:213, inc/widgets/class-widget-knowledge-base-articles.php:201
+msgid "Only select posts which are not older than"
+msgstr ""
+
+#: inc/widgets/class-widget-kbg-posts.php:231, inc/widgets/class-widget-knowledge-base-articles.php:219
+msgid "Order by:"
+msgstr ""
+
+#: inc/widgets/class-widget-kbg-posts.php:244
+msgid "Choose from category:"
+msgstr ""
+
+#: inc/widgets/class-widget-kbg-posts.php:256
+msgid "Display meta data:"
+msgstr ""
+
+#: inc/widgets/class-widget-knowledge-base-articles.php:23
+msgid "Display Knowledge Base articles with this widget"
+msgstr ""
+
+#: inc/widgets/class-widget-knowledge-base-articles.php:25
+msgid "Knowledge Base Articles"
+msgstr ""
+
+#: inc/widgets/class-widget-knowledge-base-articles.php:28
+msgid "Articles"
+msgstr ""
+
+#: inc/widgets/class-widget-knowledge-base-articles.php:189
+msgid "Auto detect taxonomy"
+msgstr ""
+
+#: inc/widgets/class-widget-knowledge-base-articles.php:190
+msgid "If sidebar is used on single template, display article from current post taxonomy | category"
+msgstr ""
+
+#: inc/widgets/class-widget-knowledge-base-articles.php:232
+msgid "Choose from taxonomy:"
+msgstr ""

@@ -1,0 +1,337 @@
+footer{
+
+    .kbg-site-branding{
+        width: 160px;
+        margin-left: 0px;
+    }
+
+    .site-info{
+        .footer-aside{
+            order: 1;
+
+            .navbar-footer{
+                .navbar-nav-footer{
+                    padding-left: 0;
+                    list-style: none;
+
+                    .menu-item.menu-item-has-children{
+                        text-align: center;
+                        a{
+                            font-size: 24px;
+                            font-weight: 700;
+                            color: #fff;
+                            padding-bottom: 20px;
+                            padding-top: 20px;
+                            display: block;
+                        }
+                        .sub-menu{
+                            padding-left: 0;
+                            list-style: none;
+                            display: block;
+
+                            li{
+                                a{
+                                    color: #fff;
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                    line-height: 1.6;
+                                    text-align: center;
+                                    text-decoration: none;
+                                    padding-bottom: 0;
+                                    padding-top: 0;
+
+                                    &:hover{
+                                        color: $primary-color;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer-content{
+            order: 2;
+            border-top: 1.3px solid #495357;
+            padding-top: 20px;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            flex-wrap: nowrap;
+            align-items: center;
+
+            .logo-footer{
+                padding-bottom: 20px;
+                .navbar-brand{
+                    position: relative;
+                    max-width: 200px;
+                    display: block;
+                    margin: 0 auto;
+                    transform: none;
+                    left: auto;
+                }
+            }
+
+            .legal-links{
+                ul{
+                    padding-left: 0;
+                    list-style: none;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    li{
+                        a{
+                            color: #fff;
+                            font-size: 15px;
+                            font-weight: 400;
+                            line-height: 1.6;
+                            text-align: center;
+                            text-decoration: none;
+                            padding-bottom: 0;
+                            padding-top: 0;
+
+                            &:hover{
+                                color: $primary-color;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .footer-copyright{
+                color: #fff;
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+@media(min-width: 768px){
+    footer{
+        padding-top: 10px !important;
+        .site-info{
+            padding: 0;
+            // max-width: 720px;
+
+            .footer-aside{
+                width: 100%;
+                .navbar-footer{
+                    .navbar-nav-footer{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        align-items: flex-start;
+
+                        .menu-item.menu-item-has-children{
+                            text-align: left;
+                            .sub-menu{
+                                li{
+                                    a{
+                                        text-align: left;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .footer-content{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                flex-wrap: nowrap;
+                align-items: flex-start;
+
+                .legal-links{
+                    width: 100%;
+                    // padding-left: 30px;
+
+                    ul{
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+
+                        li{
+                            padding-right: 20px;
+                        }
+                    }
+
+                    .footer-copyright{
+                        text-align: left;
+                    }
+                }
+            }
+        }
+
+        .kbg-site-branding{
+            padding-right: 20px;
+        }
+    }
+}
+
+@media(min-width: 992px){
+    footer{
+        .site-info{
+            // max-width: 960px;
+            .footer-aside{
+                .navbar-footer{
+                    .navbar-nav-footer{
+                        .menu-item.menu-item-has-children{
+                            flex: 1 1 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 1024px){
+    footer{
+        padding-top: 40px !important;
+        .site-info{
+            flex-direction: column;
+            flex-wrap: wrap;
+
+            .footer-aside{
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+            .footer-content{
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+
+                .logo-footer{
+                    width: 25%;
+                }
+
+                .legal-links{
+                    width: 75%;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 1200px){
+    footer{
+        .site-info{
+            // max-width: 1140px;
+        }
+    }
+}
+
+
+@media(min-width: 1400px){
+    footer{
+        .site-info{
+            // max-width: 1140px;
+        }
+
+        .kbg-site-branding{
+            padding-right: 0;
+            margin-left: 50px;
+        }
+    }
+}
+
+.kbg-footer{
+    background-color: $secundary-color;
+    padding-bottom: 25px;
+
+    @media(min-width: 1400px){
+        .container{
+            max-width: 1140px !important;
+        }
+    }
+
+    ul{
+        li{
+            margin-bottom: 0px;
+        }
+    }
+
+    .kbg-copyright{
+        margin-left: 0px;
+        margin-right: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+}
+
+footer{
+    .pre-footer-section{
+        padding-top: 30px;
+        .row>div{
+            border-width: 0px;
+            border-style: solid;
+            border-color: #495357;
+
+            @media(min-width: 768px){
+                &:first-child{
+
+                    border-width: 0px 0.5px 0.5px 0px;
+                }
+                &:last-child{
+                    border-width: 0px 0px 0.5px 0px;
+                }
+                &:nth-child(2){
+                    border-width: 0px 0px 0.5px 0px;
+                }
+                &:nth-child(3){
+                    border-width: 0px 0.5px 0.5px 0px;
+                }
+            }
+
+            @media(min-width: 992px){
+                &:first-child{
+                    border-width: 0px 0px 0.5px 0px;
+                }
+                &:last-child{
+                    border-width: 0px 0px 0.5px 0px;
+                }
+                &:nth-child(2){
+                    border-width: 0px 0px 0.5px 0.5px;
+                }
+                &:nth-child(3){
+                    border-width: 0px 0.5px 0.5px 0.5px;
+                }
+            }
+
+        }
+
+        .footerCard{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            margin-bottom: 30px;
+
+            .footerBtn{
+                color: #FFFFFF;
+                background-color: #FFFFFF00;
+                border-style: solid;
+                border-width: 1px 1px 1px 1px;
+                border-radius: 5px 5px 5px 5px;
+                padding: 13px 25px 13px 25px;
+                padding: 9px 25px 9px 25px;
+                font-size: 15px;
+
+                &:hover{
+                    border-color: $primary-color;
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+}

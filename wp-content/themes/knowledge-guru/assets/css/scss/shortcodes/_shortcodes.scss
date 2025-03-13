@@ -1,0 +1,58 @@
+.knowledge-base-posts{
+    display: flex;
+    padding-right: 25px !important;
+    padding-left: 25px !important;
+    margin-left: 0;
+    margin-right: 0;
+
+    .single-list{
+        border-top: 10px solid hsl(168, 97%, 30%);
+        padding: 45px 50px 50px;
+        background-color: #fff;
+        box-shadow: 0px 10px 20px rgba(0,0,0,.1);
+        height: 100%;
+        border-radius: 6px;
+        position: relative;
+        min-height: 550px;
+
+
+        h2{
+            margin-bottom: 0px !important;
+        }
+
+        .meta-count{
+            font-size: 1.2rem;
+            line-height: 1.25;
+            color: #000;
+            opacity: 0.75;
+        }
+
+        ul.posts-lists{
+            margin-top: 30px;
+            list-style: none;
+
+            li{
+                border-bottom: 1px solid rgba(0,0,0,.1);
+                padding-bottom: 10px;
+                padding-top: 10px;
+
+                a{
+                    font-size: 14px;
+                    color: #000;
+                    text-decoration: none;
+                    box-shadow: none;
+
+                    &:hover{
+                        color: $primary-color;
+                        box-shadow: none;
+                    }
+                }
+            }
+        }
+
+        .abs-btn{
+            position: absolute;
+            bottom: 30px;
+        }
+    }
+}

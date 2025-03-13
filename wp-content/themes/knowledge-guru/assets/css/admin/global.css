@@ -1,0 +1,225 @@
+.kbg-force-hide {
+    display: none !important;
+}
+
+/* #customize-control-kbg_settings-single_podcast_layout div label,
+.podcast-layouts.kbg-img-select-wrap li {
+    opacity: 0.3;
+    pointer-events: none;
+    cursor: not-allowed;
+}
+#customize-control-kbg_settings-single_podcast_layout div input:checked + label img {
+    box-shadow: none;
+}
+#customize-control-kbg_settings-single_podcast_layout div input:checked + label.kbg-force-enable img {
+    box-shadow: 0px 0px 0px 2px #3498DB;
+}
+.kbg-force-enable {
+    opacity: 1 !important;
+    pointer-events: auto !important;
+    cursor: pointer !important;
+} */
+
+/* Kirki color picked fix */
+body .iris-picker .iris-strip {
+    margin-right: 0;
+    position: absolute;
+    right: 0;
+}
+
+/* Welcome panel */
+
+.welcome-panel.kbg-welcome-panel {
+    margin: 33px 20px 0 0;
+    padding-bottom: 30px;
+}
+
+.welcome-panel.kbg-welcome-panel .welcome-panel-column,
+.welcome-panel.kbg-welcome-panel .welcome-panel-column:first-child {
+    max-width: 350px;
+    margin-right: 40px;
+    width: 27%;
+}
+
+.kbg-customize-welcome {
+    margin-top: 24px;
+    display: inline-block;
+}
+
+/* Admin options */
+
+#accordion-panel-kbg_panel {
+    display: block !important;
+}
+
+input.kbg-hidden,
+.kbg-hidden {
+    display: none !important;
+}
+
+img.kbg-img-select {
+    border: 2px solid #eee;
+    cursor: pointer;
+    border-radius: 4px;
+    background: #fff;
+    width: 100%;
+    max-width: 114px !important;
+}
+
+.block-editor-page img.kbg-img-select {
+    max-width: 100px !important;
+}
+
+img.kbg-img-select.selected {
+    border: 2px solid #0074a2;
+}
+
+.kbg-opt-img-80 img.kbg-img-select {
+    max-width: 80px !important;
+}
+
+ul.kbg-img-select-wrap {
+    float: left;
+    width: 100%;
+    display: block;
+    margin: 5px 0;
+}
+
+ul.kbg-img-select-wrap li {
+    float: left;
+    margin-right: 8px;
+    margin-bottom: 12px;
+}
+
+.kbg-img-select-wrap li span {
+    font-size: 11px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    line-height: 13px;
+    min-width: 50px;
+    max-width: 96px;
+}
+
+.kbg-opt-disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+#kbg-image-preview{
+    width: 300px;
+    border: 2px solid #ebebeb;
+}
+
+/* Widgets */
+
+#kbg_sidebar_footer_1 .kbg-opt-bg,
+#kbg_sidebar_footer_2 .kbg-opt-bg,
+#kbg_sidebar_footer_3 .kbg-opt-bg,
+#kbg_sidebar_footer_4 .kbg-opt-bg {
+    display: none;
+}
+
+.kbg-widget-content-sortable label {
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Customizer */
+
+.kirki-host-font-locally {
+    display: none;
+}
+
+.kirki-sortable-item .dashicons-menu:before {
+    content: "\f545";
+}
+
+.customize-control-kirki-radio-image>.image {
+    justify-content: space-between;
+}
+
+body .customize-control-kirki-radio-image label .image-label {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background: transparent;
+    font-weight: normal;
+    display: block;
+    font-size: 11px;
+    margin-top: -4px;
+}
+
+.wp-customizer .customize-control-kirki-radio-image label .image-label .inner {
+    height: auto;
+    padding: 0;
+}
+
+body .customize-control-kirki-radio-image div label {
+    position: relative;
+    max-width: 46%;
+    flex: 0 0 46%;
+    margin: 0 0 12px;
+}
+
+body .customize-control-kirki-radio-image .customize-control-title {
+    margin-bottom: 8px;
+}
+
+#customize-control-kbg_settings-header_layout.customize-control-kirki-radio-image label,
+#customize-control-kbg_settings-header_sticky_layout.customize-control-kirki-radio-image label {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+
+body #customize-control-kbg_settings-preset_colors.customize-control-kirki-radio-image div label{
+    max-width: 30%;
+    flex: 0 0 30%; 
+}
+
+.wp-customizer .customize-control-kirki-radio-image label img {
+    transition: box-shadow .15s ease-in-out;
+}
+
+.wp-customizer .customize-control-kirki-radio-image label:hover img {
+    -webkit-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+}
+
+.wp-customizer .customize-control-kirki-radio-image input:checked+label img {
+    box-shadow: 0px 0px 0px 2px #3498DB;
+    border: none;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+#accordion-panel-kbg_panel .accordion-section-title:before{
+    display: inline-block;
+    content: '';
+    background-image: url("../../img/admin/kbg_theme_options.svg");
+    background-size: 18px 18px;
+    height: 8px;
+    width: 18px;
+    vertical-align: middle;
+    padding: 5px 0 5px 5px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.wp-customizer .customize-control-kirki-radio-image input+label img {
+    border: none;
+}
+
+#customize-control-kbg_settings-footer_widgets_layout .image-label {
+    display: none;
+}
+
+.kbg-opt-display-custom select{
+    width: 200px;
+}

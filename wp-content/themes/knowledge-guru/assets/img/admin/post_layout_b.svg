@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="290px" viewBox="0 0 320 290" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>post_layout_b</title>
+    <g id="post_layout_b" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="320" height="290"></rect>
+        <rect id="Rectangle" fill="#00A3D7" opacity="0.149999991" x="214.822308" y="40" width="70.1811541" height="66.1764706" rx="4"></rect>
+        <rect id="Rectangle" fill="#00A3D7" opacity="0.149999991" x="214.822308" y="123.823529" width="70.1811541" height="66.1764706" rx="4"></rect>
+        <rect id="Rectangle" fill="#00A3D7" opacity="0.149999991" x="124.911154" y="40" width="70.1811541" height="94.4117647" rx="4"></rect>
+        <rect id="Rectangle" fill="#00A3D7" opacity="0.149999991" x="124.911154" y="154.588235" width="70.1811541" height="94.4117647" rx="4"></rect>
+        <rect id="Rectangle" fill="#00A3D7" opacity="0.149999991" x="35" y="40" width="70.1811541" height="94.4117647" rx="4"></rect>
+        <line x1="47.2839506" y1="100.5" x2="92.7160494" y2="100.5" id="Line" stroke="#00A3D7" stroke-width="3" stroke-linejoin="round"></line>
+        <line x1="47.2839506" y1="109.5" x2="92.7160494" y2="109.5" id="Line" stroke="#00A3D7" stroke-width="3" stroke-linejoin="round"></line>
+        <line x1="47.2839506" y1="118.5" x2="75.6790123" y2="118.5" id="Line" stroke="#00A3D7" stroke-width="3" stroke-linejoin="round"></line>
+        <path d="M39,40 L101,40 C103.209139,40 105,41.790861 105,44 L105,88.6315789 L105,88.6315789 L35,88.6315789 L35,44 C35,41.790861 36.790861,40 39,40 Z" id="Rectangle" fill="#00A3D7"></path>
+        <line x1="137.283951" y1="100.5" x2="182.716049" y2="100.5" id="Line" stroke="#00A3D7" stroke-width="3" stroke-linejoin="round"></line>
+        <line x1="137.283951" y1="109.5" x2="182.716049" y2="109.5" id="Line" stroke="#00A3D7" stroke-width="3" stroke-linejoin="round"></line>
+        <line x1="137.283951" y1="118.5" x2="165.679012" y2="118.5" id="Line" stroke="#00A3D7" stroke-width="3" stroke-linejoin="round"></line>
+        <path d="M129,40 L191,40 C193.209139,40 195,41.790861 195,44 L195,88.6315789 L195,88.6315789 L125,88.6315789 L125,44 C125,41.790861 126.790861,40 129,40 Z" id="Rectangle" fill="#00A3D7"></path>
+        <line x1="47.2839506" y1="215.5" x2="92.7160494" y2="215.5" id="Line" stroke="#00A3D7" stroke-width="3" stroke-linejoin="round"></line>
+        <line x1="47.2839506" y1="224.5" x2="92.7160494" y2="224.5" id="Line" stroke="#00A3D7" stroke-width="3" stroke-linejoin="round"></line>
+        <line x1="47.2839506" y1="233.5" x2="75.6790123" y2="233.5" id="Line" stroke="#00A3D7" stroke-width="3" stroke-linejoin="round"></line>
+        <path d="M39,155 L101,155 C103.209139,155 105,156.790861 105,159 L105,203.631579 L105,203.631579 L35,203.631579 L35,159 C35,156.790861 36.790861,155 39,155 Z" id="Rectangle" fill="#00A3D7"></path>
+        <line x1="137.283951" y1="215.5" x2="182.716049" y2="215.5" id="Line" stroke="#00A3D7" stroke-width="3" stroke-linejoin="round"></line>
+        <line x1="137.283951" y1="224.5" x2="182.716049" y2="224.5" id="Line" stroke="#00A3D7" stroke-width="3" stroke-linejoin="round"></line>
+        <line x1="137.283951" y1="233.5" x2="165.679012" y2="233.5" id="Line" stroke="#00A3D7" stroke-width="3" stroke-linejoin="round"></line>
+        <path d="M129,155 L191,155 C193.209139,155 195,156.790861 195,159 L195,203.631579 L195,203.631579 L125,203.631579 L125,159 C125,156.790861 126.790861,155 129,155 Z" id="Rectangle" fill="#00A3D7"></path>
+        <rect id="Rectangle" fill="#00A3D7" opacity="0.149999991" x="35" y="154.588235" width="70.1811541" height="94.4117647" rx="4"></rect>
+    </g>
+</svg>

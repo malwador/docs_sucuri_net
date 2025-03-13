@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="154px" height="26px" viewBox="0 0 154 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pagination_infinite</title>
+    <g id="pagination_infinite" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="154" height="26"></rect>
+        <g id="Group" transform="translate(69.000000, 8.000000)" fill="#B5B5B5">
+            <polygon id="Rectangle" points="4.81214128e-14 0 3.38624339 0 3.38624339 10 0 10"></polygon>
+            <polygon id="Rectangle" opacity="0.5" points="6.0952381 0 9.48148148 0 9.48148148 10 6.0952381 10"></polygon>
+            <polygon id="Rectangle" opacity="0.25" points="12.1904762 0 15.5767196 0 15.5767196 10 12.1904762 10"></polygon>
+        </g>
+    </g>
+</svg>

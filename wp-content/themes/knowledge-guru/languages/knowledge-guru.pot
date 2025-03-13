@@ -1,0 +1,2517 @@
+# Copyright (C) 2022 knowledge-guru
+# This file is distributed under the same license as the knowledge-guru package.
+msgid ""
+msgstr ""
+"Project-Id-Version: knowledge-guru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Econdig: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"MIME-Version: 1.0\n"
+"Project-Id-Version: knowledge-guru\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../core/default-options.php:80
+msgid " Created by <a href=\"https://mekshq.com\" target=\"_blank\" rel=\"noopener\">Meks</a> &#169; {current_year} %s"
+msgstr ""
+
+#: ../core/extensions.php:337, ../core/translate.php:51
+msgid "Name"
+msgstr ""
+
+#: ../core/extensions.php:341, ../core/translate.php:50
+msgid "Email"
+msgstr ""
+
+#: ../core/extensions.php:345, ../core/translate.php:52
+msgid "Website"
+msgstr ""
+
+#: ../core/extensions.php:350, ../core/translate.php:53
+msgid "Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#: ../core/helpers.php:367
+msgid "Blog A"
+msgstr ""
+
+#: ../core/helpers.php:373
+msgid "Blog A (no sidebar)"
+msgstr ""
+
+#: ../core/helpers.php:379
+msgid "Blog B"
+msgstr ""
+
+#: ../core/helpers.php:385
+msgid "Blog B (no sidebar)"
+msgstr ""
+
+#: ../core/helpers.php:392
+msgid "KB Category A"
+msgstr ""
+
+#: ../core/helpers.php:398
+msgid "KB Category B"
+msgstr ""
+
+#: ../core/helpers.php:404
+msgid "KB Category C"
+msgstr ""
+
+#: ../core/helpers.php:410
+msgid "KB Category D"
+msgstr ""
+
+#: ../core/helpers.php:416
+msgid "KB Category E"
+msgstr ""
+
+#: ../core/helpers.php:423
+msgid "Single post layout 1"
+msgstr ""
+
+#: ../core/helpers.php:429
+msgid "Page layout 1"
+msgstr ""
+
+#: ../core/helpers.php:543
+msgid "Small"
+msgstr ""
+
+#: ../core/helpers.php:544
+msgid "S"
+msgstr ""
+
+#: ../core/helpers.php:550
+msgid "Normal"
+msgstr ""
+
+#: ../core/helpers.php:551
+msgid "M"
+msgstr ""
+
+#: ../core/helpers.php:557
+msgid "Large"
+msgstr ""
+
+#: ../core/helpers.php:558
+msgid "L"
+msgstr ""
+
+#: ../core/helpers.php:563
+msgid "Huge"
+msgstr ""
+
+#: ../core/helpers.php:564
+msgid "XL"
+msgstr ""
+
+#: ../core/helpers.php:589, ../core/admin/option-fields/content.php:34
+msgid "Main color"
+msgstr ""
+
+#: ../core/helpers.php:594, ../core/admin/option-fields/content.php:46
+msgid "Text color"
+msgstr ""
+
+#: ../core/helpers.php:599, ../core/admin/option-fields/content.php:57
+msgid "Background color"
+msgstr ""
+
+#: ../core/helpers.php:604
+msgid "Headings color"
+msgstr ""
+
+#: ../core/helpers.php:609, ../core/admin/option-fields/content.php:69
+msgid "Button primary color"
+msgstr ""
+
+#: ../core/helpers.php:614, ../core/admin/option-fields/content.php:80
+msgid "Button primary text color"
+msgstr ""
+
+#: ../core/helpers.php:1423, ../core/helpers.php:1472
+msgid "A"
+msgstr ""
+
+#: ../core/helpers.php:1436, ../core/helpers.php:1485
+msgid "B"
+msgstr ""
+
+#: ../core/helpers.php:1550
+msgid "Site title (when logo is not used)"
+msgstr ""
+
+#: ../core/helpers.php:1551
+msgid "Site description"
+msgstr ""
+
+#: ../core/helpers.php:1552
+msgid "Main site navigation"
+msgstr ""
+
+#: ../core/helpers.php:1553
+msgid "Widget title"
+msgstr ""
+
+#: ../core/helpers.php:1554
+msgid "Section title"
+msgstr ""
+
+#: ../core/helpers.php:1555
+msgid "Post/page title"
+msgstr ""
+
+#: ../core/helpers.php:1556
+msgid "Text headings"
+msgstr ""
+
+#: ../core/helpers.php:1557
+msgid "Buttons/special labels"
+msgstr ""
+
+#: ../core/menus.php:15
+msgid "Primary Menu"
+msgstr ""
+
+#: ../core/menus.php:16
+msgid "Social Menu"
+msgstr ""
+
+#: ../core/menus.php:17
+msgid "Copyright Menu"
+msgstr ""
+
+#: ../core/sidebars.php:20
+msgid "Default Sidebar"
+msgstr ""
+
+#: ../core/sidebars.php:21
+msgid "This is the default sidebar"
+msgstr ""
+
+#: ../core/sidebars.php:33
+msgid "Default Sticky Sidebar"
+msgstr ""
+
+#: ../core/sidebars.php:34
+msgid "This is the default sticky sidebar"
+msgstr ""
+
+#: ../core/sidebars.php:46
+msgid "Search Archive Sidebar"
+msgstr ""
+
+#: ../core/sidebars.php:47
+msgid "This is the search archive sidebar, special created for search archive page"
+msgstr ""
+
+#: ../core/sidebars.php:59
+msgid "Search Archive Sticky Sidebar"
+msgstr ""
+
+#: ../core/sidebars.php:60
+msgid "This is the search archive sticky sidebar, special created for search archive page"
+msgstr ""
+
+#: ../core/sidebars.php:72
+msgid "Footer Column 1"
+msgstr ""
+
+#: ../core/sidebars.php:73
+msgid "This is footer area column 1."
+msgstr ""
+
+#: ../core/sidebars.php:85
+msgid "Footer Column 2"
+msgstr ""
+
+#: ../core/sidebars.php:86
+msgid "This is footer area column 2."
+msgstr ""
+
+#: ../core/sidebars.php:100
+msgid "Footer Column 3"
+msgstr ""
+
+#: ../core/sidebars.php:101
+msgid "This is footer area column 3."
+msgstr ""
+
+#: ../core/sidebars.php:113
+msgid "Footer Column 4"
+msgstr ""
+
+#: ../core/sidebars.php:114
+msgid "This is footer area column 4."
+msgstr ""
+
+#: ../core/sidebars.php:133
+msgid "This is custom sidebar area."
+msgstr ""
+
+#: ../core/translate.php:19
+msgid "Menu"
+msgstr ""
+
+#: ../core/translate.php:20
+msgid "Follow me: "
+msgstr ""
+
+#: ../core/translate.php:21
+msgid " "
+msgstr ""
+
+#: ../core/translate.php:22
+msgid "Newer Entries"
+msgstr ""
+
+#: ../core/translate.php:23
+msgid "Older Entries"
+msgstr ""
+
+#: ../core/translate.php:24
+msgid "Load more"
+msgstr ""
+
+#: ../core/translate.php:25
+msgid "Previous"
+msgstr ""
+
+#: ../core/translate.php:26, ../core/admin/demo-importer.php:21
+msgid "Next"
+msgstr ""
+
+#: ../core/translate.php:27
+msgid "Read more"
+msgstr ""
+
+#: ../core/translate.php:28
+msgid ""
+msgstr ""
+
+#: ../core/translate.php:29
+msgid "Tag: "
+msgstr ""
+
+#: ../core/translate.php:30
+msgid "Author: "
+msgstr ""
+
+#: ../core/translate.php:31
+msgid "Archive: "
+msgstr ""
+
+#: ../core/translate.php:32
+msgid "You searched for:"
+msgstr ""
+
+#: ../core/translate.php:33
+msgid "How can we help?"
+msgstr ""
+
+#: ../core/translate.php:34, ../core/translate.php:35
+msgid "Search"
+msgstr ""
+
+#: ../core/translate.php:36
+msgid "Search again"
+msgstr ""
+
+#: ../core/translate.php:37
+msgid "min read"
+msgstr ""
+
+#: ../core/translate.php:38
+msgid "About the author"
+msgstr ""
+
+#: ../core/translate.php:39
+msgid "View all posts"
+msgstr ""
+
+#: ../core/translate.php:41
+msgid "Previous post"
+msgstr ""
+
+#: ../core/translate.php:42
+msgid "Next post"
+msgstr ""
+
+#: ../core/translate.php:43
+msgid "Related posts"
+msgstr ""
+
+#: ../core/translate.php:44
+msgid "Related articles"
+msgstr ""
+
+#: ../core/translate.php:46
+msgid "Join the discussion"
+msgstr ""
+
+#: ../core/translate.php:47
+msgid "Reply"
+msgstr ""
+
+#: ../core/translate.php:48
+msgid "Submit comment"
+msgstr ""
+
+#: ../core/translate.php:49
+msgid "Comment"
+msgstr ""
+
+#: ../core/translate.php:54
+msgid "Cancel reply"
+msgstr ""
+
+#: ../core/translate.php:55
+msgid "Add comment"
+msgstr ""
+
+#: ../core/translate.php:56
+msgid "1 comment"
+msgstr ""
+
+#: ../core/translate.php:57
+msgid "% comments"
+msgstr ""
+
+#: ../core/translate.php:59
+msgid "articles found"
+msgstr ""
+
+#: ../core/translate.php:60
+msgid "Sorry, there is no content found on this page. Feel free to contact the website administrator regarding this issue."
+msgstr ""
+
+#: ../core/translate.php:61
+msgid "No results found. Please try again with a different keyword."
+msgstr ""
+
+#: ../core/translate.php:62
+msgid "Page not found"
+msgstr ""
+
+#: ../core/translate.php:63
+msgid "This is an example of a 404 page. The page that you are looking for does not exist on this website. You may have accidentally mistyped the page address, or followed an expired link. Anyway, we will help you get back on track. Why not try to search for the page you were looking for:"
+msgstr ""
+
+#: ../core/admin/demo-importer.php:15
+msgid "Knowledge Guru Setup Wizard"
+msgstr ""
+
+#: ../core/admin/demo-importer.php:16
+msgid "%s%s Themes &lsaquo; Theme Setup: %s%s"
+msgstr ""
+
+#: ../core/admin/demo-importer.php:17
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../core/admin/demo-importer.php:18
+msgid "Disable this wizard"
+msgstr ""
+
+#: ../core/admin/demo-importer.php:20
+msgid "Skip"
+msgstr ""
+
+#: ../core/admin/demo-importer.php:22
+msgid "Start"
+msgstr ""
+
+#: ../core/admin/demo-importer.php:23
+msgid "Cancel"
+msgstr ""
+
+#: ../core/admin/demo-importer.php:24, ../core/admin/demo-importer.php:26, ../core/admin/demo-importer.php:27, ../inc/tgm/class-tgm-plugin-activation.php:2712
+msgid "Install"
+msgstr ""
+
+#: ../core/admin/demo-importer.php:28
+msgid "Import"
+msgstr ""
+
+#: ../core/admin/demo-importer.php:29, ../inc/tgm/class-tgm-plugin-activation.php:2721
+msgid "Activate"
+msgstr ""
+
+#: ../core/admin/demo-importer.php:30
+msgid "Later"
+msgstr ""
+
+#: ../core/admin/demo-importer.php:32
+msgid "Welcome to %s"
+msgstr ""
+
+#: ../core/admin/demo-importer.php:33
+msgid "Hi. Welcome back"
+msgstr ""
+
+#: ../core/admin/demo-importer.php:34
+msgid "This wizard will set up your theme, install plugins, and import content. It is optional & should take only a few minutes."
+msgstr ""
+
+#: ../core/admin/demo-importer.php:35
+msgid "You may have already run this theme setup wizard. If you would like to proceed anyway, click on the \"Start\" button below."
+msgstr ""
+
+#: ../core/admin/demo-importer.php:37
+msgid "Activate %s"
+msgstr ""
+
+#: ../core/admin/demo-importer.php:38
+msgid "%s is Activated"
+msgstr ""
+
+#: ../core/admin/demo-importer.php:39
+msgid "Enter your license key to enable remote updates and theme support."
+msgstr ""
+
+#: ../core/admin/demo-importer.php:40
+msgid "License key"
+msgstr ""
+
+#: ../core/admin/demo-importer.php:41
+msgid "The theme is already registered, so you can go to the next step!"
+msgstr ""
+
+#: ../core/admin/demo-importer.php:42
+msgid "Your theme is activated! Remote updates and theme support are enabled."
+msgstr ""
+
+#: ../core/admin/demo-importer.php:43
+msgid "Need help?"
+msgstr ""
+
+#: ../core/admin/demo-importer.php:45
+msgid "Install Child Theme"
+msgstr ""
+
+#: ../core/admin/demo-importer.php:46
+msgid "You're good to go!"
+msgstr ""
+
+#: ../core/admin/demo-importer.php:47
+msgid "Let's build & activate a child theme so you may easily make theme changes."
+msgstr ""
+
+#: ../core/admin/demo-importer.php:48
+msgid "Your child theme has already been installed and is now activated, if it wasn't already."
+msgstr ""
+
+#: ../core/admin/demo-importer.php:49
+msgid "Learn about child themes"
+msgstr ""
+
+#: ../core/admin/demo-importer.php:50
+msgid "Awesome. Your child theme has already been installed and is now activated."
+msgstr ""
+
+#: ../core/admin/demo-importer.php:51
+msgid "Awesome. Your child theme has been created and is now activated."
+msgstr ""
+
+#: ../core/admin/demo-importer.php:53, ../inc/tgm/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: ../core/admin/demo-importer.php:54
+msgid "You're up to speed!"
+msgstr ""
+
+#: ../core/admin/demo-importer.php:55
+msgid "Let's install some essential WordPress plugins to get your site up to speed."
+msgstr ""
+
+#: ../core/admin/demo-importer.php:56
+msgid "The required WordPress plugins are all installed and up to date. Press \"Next\" to continue the setup wizard."
+msgstr ""
+
+#: ../core/admin/demo-importer.php:57, ../inc/merlin/class-merlin.php:734
+msgid "Plugins"
+msgstr ""
+
+#: ../core/admin/demo-importer.php:59
+msgid "Import Content"
+msgstr ""
+
+#: ../core/admin/demo-importer.php:60
+msgid "Let's import content to your website, to help you get familiar with the theme."
+msgstr ""
+
+#: ../core/admin/demo-importer.php:61
+msgid "Details"
+msgstr ""
+
+#: ../core/admin/demo-importer.php:63
+msgid "All done. Have fun!"
+msgstr ""
+
+#: ../core/admin/demo-importer.php:64
+msgid "Your theme has been all set up. Enjoy your new theme by %s."
+msgstr ""
+
+#: ../core/admin/demo-importer.php:65
+msgid "Extras"
+msgstr ""
+
+#: ../core/admin/demo-importer.php:66
+msgid "View your website"
+msgstr ""
+
+#: ../core/admin/demo-importer.php:69
+msgid "Theme Documentation"
+msgstr ""
+
+#: ../core/admin/demo-importer.php:73
+msgid "Start Customizing"
+msgstr ""
+
+#: ../core/admin/extensions.php:76
+msgid "Important: Kirki Toolkit plugin is required to run your Theme Options / Customizer panel. Please visit <a href=\"%s\">recommended plugins page</a> to install it."
+msgstr ""
+
+#: ../core/admin/extensions.php:82
+msgid "Important: Knowledge Base Blocks plugin is required for full theme functionality. Please visit <a href=\"%s\">recommended plugins page</a> to install it."
+msgstr ""
+
+#: ../core/admin/helpers.php:101
+msgid "Layout 1"
+msgstr ""
+
+#: ../core/admin/helpers.php:105
+msgid "Layout 2"
+msgstr ""
+
+#: ../core/admin/helpers.php:109
+msgid "Layout 3"
+msgstr ""
+
+#: ../core/admin/helpers.php:140
+msgid "Category"
+msgstr ""
+
+#: ../core/admin/helpers.php:141, ../core/admin/helpers.php:552
+msgid "Date"
+msgstr ""
+
+#: ../core/admin/helpers.php:142
+msgid "Author"
+msgstr ""
+
+#: ../core/admin/helpers.php:143
+msgid "Reading time"
+msgstr ""
+
+#: ../core/admin/helpers.php:144
+msgid "Comments"
+msgstr ""
+
+#: ../core/admin/helpers.php:147, ../core/admin/helpers.php:215, ../core/admin/helpers.php:456, ../core/admin/helpers.php:494, ../core/admin/helpers.php:575, ../core/admin/option-fields/blog-single.php:35, ../core/admin/option-fields/blog-single.php:59, ../core/admin/option-fields/knowledge-base-single.php:35, ../core/admin/option-fields/knowledge-base-single.php:59
+msgid "None"
+msgstr ""
+
+#: ../core/admin/helpers.php:173, ../core/admin/option-fields/blog-single.php:34, ../core/admin/option-fields/blog-single.php:58, ../core/admin/option-fields/knowledge-base-single.php:34, ../core/admin/option-fields/knowledge-base-single.php:58
+msgid "Search form"
+msgstr ""
+
+#: ../core/admin/helpers.php:174
+msgid "Social menu"
+msgstr ""
+
+#: ../core/admin/helpers.php:208, ../core/admin/helpers.php:364, ../core/admin/helpers.php:391, ../core/admin/helpers.php:419, ../core/admin/helpers.php:449, ../core/admin/helpers.php:491
+msgid "Inherit"
+msgstr ""
+
+#: ../core/admin/helpers.php:221
+msgid "Numeric pagination links"
+msgstr ""
+
+#: ../core/admin/helpers.php:225
+msgid "Prev/Next page links"
+msgstr ""
+
+#: ../core/admin/helpers.php:229
+msgid "Load more button"
+msgstr ""
+
+#: ../core/admin/helpers.php:233
+msgid "Infinite scroll"
+msgstr ""
+
+#: ../core/admin/helpers.php:333
+msgid "Original (ratio as uploaded - do not crop)"
+msgstr ""
+
+#: ../core/admin/helpers.php:336
+msgid "21:9"
+msgstr ""
+
+#: ../core/admin/helpers.php:337
+msgid "16:9"
+msgstr ""
+
+#: ../core/admin/helpers.php:338
+msgid "3:2"
+msgstr ""
+
+#: ../core/admin/helpers.php:339
+msgid "4:3"
+msgstr ""
+
+#: ../core/admin/helpers.php:340
+msgid "1:1 (square)"
+msgstr ""
+
+#: ../core/admin/helpers.php:341
+msgid "3:4"
+msgstr ""
+
+#: ../core/admin/helpers.php:342
+msgid "Custom ratio"
+msgstr ""
+
+#: ../core/admin/helpers.php:462
+msgid "Left sidebar"
+msgstr ""
+
+#: ../core/admin/helpers.php:466
+msgid "Right sidebar"
+msgstr ""
+
+#: ../core/admin/helpers.php:553
+msgid "Number of comments"
+msgstr ""
+
+#: ../core/admin/helpers.php:554
+msgid "Title (alphabetically)"
+msgstr ""
+
+#: ../core/admin/helpers.php:576
+msgid "Yoast SEO (or Yoast Breadcrumbs)"
+msgstr ""
+
+#: ../core/admin/helpers.php:577, ../core/admin/option-fields/blog-single.php:82, ../core/admin/option-fields/knowledge-base-single.php:82
+msgid "Breadcrumb NavXT"
+msgstr ""
+
+#: ../core/admin/options.php:42
+msgid "Theme Options"
+msgstr ""
+
+#: ../core/admin/plugins.php:120
+msgid "Install Recommended Plugins"
+msgstr ""
+
+#: ../core/admin/plugins.php:121
+msgid "Knowledge Guru Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: ../core/admin/plugins.php:122, ../inc/tgm/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../core/admin/plugins.php:123, ../inc/tgm/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../core/admin/plugins.php:124, ../inc/tgm/class-tgm-plugin-activation.php:334
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../core/admin/plugins.php:125, ../inc/tgm/class-tgm-plugin-activation.php:340
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../core/admin/plugins.php:126
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../core/admin/plugins.php:127, ../inc/tgm/class-tgm-plugin-activation.php:358
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../core/admin/plugins.php:128, ../inc/tgm/class-tgm-plugin-activation.php:364
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../core/admin/plugins.php:129
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../core/admin/plugins.php:130, ../inc/tgm/class-tgm-plugin-activation.php:346
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../core/admin/plugins.php:131
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../core/admin/plugins.php:132, ../inc/tgm/class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../core/admin/plugins.php:133
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../core/admin/plugins.php:134, ../inc/tgm/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../core/admin/plugins.php:135, ../inc/tgm/class-tgm-plugin-activation.php:387, ../inc/tgm/class-tgm-plugin-activation.php:3154
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../core/admin/plugins.php:136
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../core/admin/metaboxes/category.php:91, ../core/admin/metaboxes/category.php:263
+msgid "Display settings"
+msgstr ""
+
+#: ../core/admin/metaboxes/category.php:94, ../core/admin/metaboxes/category.php:268
+msgid "Inherit from Category theme options"
+msgstr ""
+
+#: ../core/admin/metaboxes/category.php:98, ../core/admin/metaboxes/category.php:273, ../core/admin/option-fields/blog-category.php:23, ../core/admin/option-fields/header-sticky.php:118, ../core/admin/option-fields/knowledge-base-category.php:23
+msgid "Customize"
+msgstr ""
+
+#: ../core/admin/metaboxes/category.php:107, ../core/admin/metaboxes/category.php:282
+msgid "Template layout"
+msgstr ""
+
+#: ../core/admin/metaboxes/category.php:119, ../core/admin/metaboxes/category.php:138, ../core/admin/metaboxes/category.php:214, ../core/admin/metaboxes/category.php:295, ../core/admin/metaboxes/category.php:315, ../core/admin/metaboxes/category.php:404
+msgid "Choose a layout"
+msgstr ""
+
+#: ../core/admin/metaboxes/category.php:126, ../core/admin/metaboxes/category.php:302, ../core/admin/option-fields/blog-archive.php:40, ../core/admin/option-fields/blog-category.php:70
+msgid "Posts layout"
+msgstr ""
+
+#: ../core/admin/metaboxes/category.php:144, ../core/admin/metaboxes/category.php:322
+msgid "Post per page"
+msgstr ""
+
+#: ../core/admin/metaboxes/category.php:155, ../core/admin/metaboxes/category.php:336
+msgid "Enable Sidebar"
+msgstr ""
+
+#: ../core/admin/metaboxes/category.php:165, ../core/admin/metaboxes/category.php:348, ../core/admin/option-fields/sidebar.php:5
+msgid "Sidebar"
+msgstr ""
+
+#: ../core/admin/metaboxes/category.php:176, ../core/admin/metaboxes/category.php:361
+msgid "Choose sidebar position"
+msgstr ""
+
+#: ../core/admin/metaboxes/category.php:186, ../core/admin/metaboxes/category.php:371
+msgid "Choose a regular sidebar to display"
+msgstr ""
+
+#: ../core/admin/metaboxes/category.php:196, ../core/admin/metaboxes/category.php:381
+msgid "Choose a sticky sidebar to display"
+msgstr ""
+
+#: ../core/admin/metaboxes/category.php:203, ../core/admin/metaboxes/category.php:391, ../core/admin/option-fields/blog-archive.php:154, ../core/admin/option-fields/blog-category.php:224, ../core/admin/option-fields/knowledge-base-archive.php:154, ../core/admin/option-fields/knowledge-base-category.php:242, ../core/admin/option-fields/search-archive.php:155
+msgid "Pagination"
+msgstr ""
+
+#: ../core/admin/metaboxes/category.php:219, ../core/admin/metaboxes/category.php:411
+msgid "Image"
+msgstr ""
+
+#: ../core/admin/metaboxes/category.php:227, ../core/admin/metaboxes/category.php:421
+msgid "Upload"
+msgstr ""
+
+#: ../core/admin/metaboxes/category.php:228, ../core/admin/metaboxes/category.php:422
+msgid "Clear"
+msgstr ""
+
+#: ../core/admin/metaboxes/category.php:231, ../core/admin/metaboxes/category.php:425
+msgid "Upload an image for this category"
+msgstr ""
+
+#: ../core/admin/option-fields/ads.php:5
+msgid "Ads"
+msgstr ""
+
+#: ../core/admin/option-fields/ads.php:6
+msgid "Use these options to set up your ads throughout the website. Both HTML/image and JavaScript ads are allowed. You can use shortcodes from your favorite ad plugins as well."
+msgstr ""
+
+#: ../core/admin/option-fields/ads.php:14
+msgid "Archive top"
+msgstr ""
+
+#: ../core/admin/option-fields/ads.php:15
+msgid "This ad will be displayed above the content of your archive templates (i.e. categories, tags, etc.)"
+msgstr ""
+
+#: ../core/admin/option-fields/ads.php:24
+msgid "Single post/page top"
+msgstr ""
+
+#: ../core/admin/option-fields/ads.php:25
+msgid "This ad will be displayed above the content of single posts and pages"
+msgstr ""
+
+#: ../core/admin/option-fields/ads.php:34
+msgid "Above footer"
+msgstr ""
+
+#: ../core/admin/option-fields/ads.php:35
+msgid "This ad will be displayed above the footer area on all templates"
+msgstr ""
+
+#: ../core/admin/option-fields/ads.php:44
+msgid "Between posts"
+msgstr ""
+
+#: ../core/admin/option-fields/ads.php:45
+msgid "This ad will be displayed between the posts listing on your archive templates"
+msgstr ""
+
+#: ../core/admin/option-fields/ads.php:54
+msgid "Between posts ad position"
+msgstr ""
+
+#: ../core/admin/option-fields/ads.php:55
+msgid "Specify after how many posts you want to display the ad"
+msgstr ""
+
+#: ../core/admin/option-fields/ads.php:71
+msgid "Do not show ads on these specific pages"
+msgstr ""
+
+#: ../core/admin/option-fields/ads.php:72
+msgid "Select pages you don't want to display ads on"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-archive.php:7, ../core/admin/option-fields/knowledge-base-archive.php:7
+msgid "Archives Template"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-archive.php:18, ../core/admin/option-fields/knowledge-base-archive.php:18
+msgid "Display archive description"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-archive.php:29, ../core/admin/option-fields/blog-category.php:52, ../core/admin/option-fields/knowledge-base-archive.php:29, ../core/admin/option-fields/knowledge-base-category.php:70, ../core/admin/option-fields/search-archive.php:18
+msgid "Display number of posts label"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-archive.php:52, ../core/admin/option-fields/blog-category.php:89, ../core/admin/option-fields/knowledge-base-archive.php:52, ../core/admin/option-fields/knowledge-base-category.php:107, ../core/admin/option-fields/search-archive.php:53
+msgid "Enable sidebar for this layout"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-archive.php:63, ../core/admin/option-fields/blog-category.php:107, ../core/admin/option-fields/blog-single.php:100, ../core/admin/option-fields/knowledge-base-archive.php:63, ../core/admin/option-fields/knowledge-base-category.php:125, ../core/admin/option-fields/knowledge-base-single.php:100, ../core/admin/option-fields/page.php:19, ../core/admin/option-fields/search-archive.php:64
+msgid "Sidebar position"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-archive.php:82, ../core/admin/option-fields/blog-category.php:131, ../core/admin/option-fields/blog-single.php:112, ../core/admin/option-fields/knowledge-base-archive.php:82, ../core/admin/option-fields/knowledge-base-category.php:149, ../core/admin/option-fields/knowledge-base-single.php:112, ../core/admin/option-fields/page.php:31, ../core/admin/option-fields/search-archive.php:83
+msgid "Standard sidebar"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-archive.php:101, ../core/admin/option-fields/blog-category.php:155, ../core/admin/option-fields/blog-single.php:131, ../core/admin/option-fields/knowledge-base-archive.php:101, ../core/admin/option-fields/knowledge-base-category.php:173, ../core/admin/option-fields/knowledge-base-single.php:131, ../core/admin/option-fields/page.php:50, ../core/admin/option-fields/search-archive.php:102
+msgid "Sticky sidebar"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-archive.php:121, ../core/admin/option-fields/blog-category.php:179, ../core/admin/option-fields/knowledge-base-archive.php:121, ../core/admin/option-fields/knowledge-base-category.php:197, ../core/admin/option-fields/search-archive.php:122
+msgid "Number of posts per page"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-archive.php:124, ../core/admin/option-fields/blog-category.php:182, ../core/admin/option-fields/knowledge-base-archive.php:124, ../core/admin/option-fields/knowledge-base-category.php:200, ../core/admin/option-fields/search-archive.php:125
+msgid "Inherit from global option set in Settings / Reading"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-archive.php:125, ../core/admin/option-fields/blog-category.php:183, ../core/admin/option-fields/knowledge-base-archive.php:125, ../core/admin/option-fields/knowledge-base-category.php:201, ../core/admin/option-fields/search-archive.php:126
+msgid "Custom number"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-archive.php:136, ../core/admin/option-fields/blog-category.php:201, ../core/admin/option-fields/knowledge-base-archive.php:136, ../core/admin/option-fields/knowledge-base-category.php:219, ../core/admin/option-fields/search-archive.php:137
+msgid "Specify number of posts"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-category.php:7, ../core/admin/option-fields/knowledge-base-category.php:7
+msgid "Category Template"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-category.php:19, ../core/admin/option-fields/knowledge-base-category.php:19
+msgid "Category settings"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-category.php:22, ../core/admin/option-fields/knowledge-base-category.php:22
+msgid "Inherit from general Archive settings"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-category.php:34, ../core/admin/option-fields/knowledge-base-category.php:52
+msgid "Display category description"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-post-layouts.php:7
+msgid "Post Listing Layouts"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-post-layouts.php:19, ../core/admin/option-fields/knowledge-base-layouts.php:19
+msgid "Layout A"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-post-layouts.php:30, ../core/admin/option-fields/blog-post-layouts.php:134, ../core/admin/option-fields/blog-single.php:150, ../core/admin/option-fields/knowledge-base-layouts.php:30, ../core/admin/option-fields/knowledge-base-single.php:150
+msgid "Choose meta"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-post-layouts.php:42, ../core/admin/option-fields/blog-post-layouts.php:146, ../core/admin/option-fields/knowledge-base-layouts.php:42
+msgid "Display post text excerpt"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-post-layouts.php:53, ../core/admin/option-fields/blog-post-layouts.php:157, ../core/admin/option-fields/knowledge-base-layouts.php:53
+msgid "Excerpt type"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-post-layouts.php:55, ../core/admin/option-fields/blog-post-layouts.php:159, ../core/admin/option-fields/knowledge-base-layouts.php:55
+msgid "Automatic excerpt (with characters limit)"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-post-layouts.php:56, ../core/admin/option-fields/blog-post-layouts.php:160, ../core/admin/option-fields/knowledge-base-layouts.php:56
+msgid "Full content (manually split with read-more tag)"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-post-layouts.php:77, ../core/admin/option-fields/blog-post-layouts.php:181, ../core/admin/option-fields/knowledge-base-layouts.php:77
+msgid "Excerpt characters limit"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-post-layouts.php:107, ../core/admin/option-fields/blog-post-layouts.php:211, ../core/admin/option-fields/knowledge-base-layouts.php:107
+msgid "Display \"read more\" button"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-post-layouts.php:123, ../core/admin/option-fields/knowledge-base-layouts.php:119
+msgid "Layout B"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-single.php:8
+msgid "Single post"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-single.php:19, ../core/admin/option-fields/knowledge-base-single.php:19
+msgid "Enable subheader options"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-single.php:30, ../core/admin/option-fields/knowledge-base-single.php:30
+msgid "Subheader left slot"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-single.php:33, ../core/admin/option-fields/blog-single.php:57, ../core/admin/option-fields/knowledge-base-single.php:33, ../core/admin/option-fields/knowledge-base-single.php:57
+msgid "Breadcrumbs"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-single.php:54, ../core/admin/option-fields/knowledge-base-single.php:54
+msgid "Subheader right slot"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-single.php:78, ../core/admin/option-fields/knowledge-base-single.php:78
+msgid "Subheader breadcrumbs type"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-single.php:81, ../core/admin/option-fields/knowledge-base-single.php:81
+msgid "Yoast Breadcrumb"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-single.php:162, ../core/admin/option-fields/knowledge-base-single.php:162, ../core/admin/option-fields/page.php:69
+msgid "Display featured image"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-single.php:173, ../core/admin/option-fields/knowledge-base-single.php:173, ../core/admin/option-fields/page.php:80
+msgid "Display featured image caption"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-single.php:191, ../core/admin/option-fields/knowledge-base-single.php:191
+msgid "Featured image ratio"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-single.php:215, ../core/admin/option-fields/knowledge-base-single.php:215, ../core/admin/option-fields/page.php:121
+msgid "Your custom ratio"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-single.php:216, ../core/admin/option-fields/knowledge-base-single.php:216, ../core/admin/option-fields/layouts-image-ratio.php:44, ../core/admin/option-fields/layouts-image-ratio.php:77, ../core/admin/option-fields/layouts-image-ratio.php:120, ../core/admin/option-fields/layouts-image-ratio.php:152, ../core/admin/option-fields/layouts-image-ratio.php:184, ../core/admin/option-fields/layouts-image-ratio.php:216, ../core/admin/option-fields/layouts-image-ratio.php:248, ../core/admin/option-fields/page.php:122
+msgid "i.e. Put 2:1"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-single.php:245, ../core/admin/option-fields/knowledge-base-single.php:245
+msgid "Display headline (post excerpt)"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-single.php:256, ../core/admin/option-fields/knowledge-base-single.php:256
+msgid "Display tags"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-single.php:267, ../core/admin/option-fields/knowledge-base-single.php:267
+msgid "Display author area"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-single.php:278, ../core/admin/option-fields/knowledge-base-single.php:278
+msgid "Display \"related posts\" area"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-single.php:289, ../core/admin/option-fields/knowledge-base-single.php:289
+msgid "Number of related post"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-single.php:307, ../core/admin/option-fields/knowledge-base-single.php:307
+msgid "Related area chooses from posts"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-single.php:310, ../core/admin/option-fields/knowledge-base-single.php:310
+msgid "Located in the same category"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-single.php:311, ../core/admin/option-fields/knowledge-base-single.php:311
+msgid "Tagged with at least one same tag"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-single.php:312, ../core/admin/option-fields/knowledge-base-single.php:312
+msgid "Located in the same category OR tagged with a same tag"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-single.php:313, ../core/admin/option-fields/knowledge-base-single.php:313
+msgid "Located in the same category AND tagged with a same tag"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-single.php:314, ../core/admin/option-fields/knowledge-base-single.php:314
+msgid "By the same author"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-single.php:315, ../core/admin/option-fields/knowledge-base-single.php:315
+msgid "All posts"
+msgstr ""
+
+#: ../core/admin/option-fields/blog-single.php:333, ../core/admin/option-fields/knowledge-base-single.php:333
+msgid "Related posts are ordered by"
+msgstr ""
+
+#: ../core/admin/option-fields/blog.php:7, ../core/admin/option-fields/layouts-image-ratio.php:20
+msgid "Blog"
+msgstr ""
+
+#: ../core/admin/option-fields/content.php:7
+msgid "Colors and Styling"
+msgstr ""
+
+#: ../core/admin/option-fields/content.php:18
+msgid "Theme style"
+msgstr ""
+
+#: ../core/admin/option-fields/content.php:21
+msgid "Sharp"
+msgstr ""
+
+#: ../core/admin/option-fields/content.php:22
+msgid "Rounded"
+msgstr ""
+
+#: ../core/admin/option-fields/content.php:23
+msgid "Pill"
+msgstr ""
+
+#: ../core/admin/option-fields/content.php:94
+msgid "Additional color options"
+msgstr ""
+
+#: ../core/admin/option-fields/content.php:97
+msgid "Generate from main color"
+msgstr ""
+
+#: ../core/admin/option-fields/content.php:98
+msgid "Customize colors"
+msgstr ""
+
+#: ../core/admin/option-fields/content.php:114
+msgid "Button secondary"
+msgstr ""
+
+#: ../core/admin/option-fields/content.php:132
+msgid "Button tertiary"
+msgstr ""
+
+#: ../core/admin/option-fields/content.php:153
+msgid "Header background color"
+msgstr ""
+
+#: ../core/admin/option-fields/content.php:171
+msgid "Header text color"
+msgstr ""
+
+#: ../core/admin/option-fields/content.php:191
+msgid "Sticky header background color"
+msgstr ""
+
+#: ../core/admin/option-fields/content.php:209
+msgid "Sticky header text color"
+msgstr ""
+
+#: ../core/admin/option-fields/content.php:230
+msgid "Footer background color"
+msgstr ""
+
+#: ../core/admin/option-fields/content.php:248
+msgid "Footer text color"
+msgstr ""
+
+#: ../core/admin/option-fields/footer.php:7
+msgid "Footer"
+msgstr ""
+
+#: ../core/admin/option-fields/footer.php:19
+msgid "Display footer widgets"
+msgstr ""
+
+#: ../core/admin/option-fields/footer.php:30
+msgid "Widgets style"
+msgstr ""
+
+#: ../core/admin/option-fields/footer.php:33
+msgid "Unboxed"
+msgstr ""
+
+#: ../core/admin/option-fields/footer.php:34
+msgid "Boxed"
+msgstr ""
+
+#: ../core/admin/option-fields/footer.php:52
+msgid "Footer widgets layout"
+msgstr ""
+
+#: ../core/admin/option-fields/footer.php:53
+msgid "Note: Each column represents one Footer Sidebar in <a href=\"%s\">Apperance -> Widgets</a> settings."
+msgstr ""
+
+#: ../core/admin/option-fields/footer.php:73
+msgid "Display footer copyright and menu"
+msgstr ""
+
+#: ../core/admin/option-fields/footer.php:84
+msgid "Footer copyright text"
+msgstr ""
+
+#: ../core/admin/option-fields/footer.php:102
+msgid "Display copyright menu"
+msgstr ""
+
+#: ../core/admin/option-fields/header-general.php:7
+msgid "General"
+msgstr ""
+
+#: ../core/admin/option-fields/header-general.php:18, ../core/admin/option-fields/header-sticky.php:28
+msgid "Layout"
+msgstr ""
+
+#: ../core/admin/option-fields/header-general.php:30
+msgid "Header height"
+msgstr ""
+
+#: ../core/admin/option-fields/header-general.php:47
+msgid "Elements orientation"
+msgstr ""
+
+#: ../core/admin/option-fields/header-general.php:51
+msgid "Site content"
+msgstr ""
+
+#: ../core/admin/option-fields/header-general.php:55
+msgid "Browser (screen)"
+msgstr ""
+
+#: ../core/admin/option-fields/header-general.php:68, ../core/admin/option-fields/header-sticky.php:138
+msgid "Enable main navigation"
+msgstr ""
+
+#: ../core/admin/option-fields/header-general.php:79
+msgid "Enable site desciprition"
+msgstr ""
+
+#: ../core/admin/option-fields/header-general.php:90, ../core/admin/option-fields/header-sticky.php:165
+msgid "Enable special elements"
+msgstr ""
+
+#: ../core/admin/option-fields/header-general.php:110
+msgid "Logo"
+msgstr ""
+
+#: ../core/admin/option-fields/header-general.php:111
+msgid "This is your default logo image. If it is not uploaded, the theme will display the website title instead."
+msgstr ""
+
+#: ../core/admin/option-fields/header-general.php:125
+msgid "Retina logo (2x)"
+msgstr ""
+
+#: ../core/admin/option-fields/header-general.php:126
+msgid "Optionally upload another logo for devices with retina displays. It should be double the size of your standard logo."
+msgstr ""
+
+#: ../core/admin/option-fields/header-general.php:140
+msgid "Mobile logo"
+msgstr ""
+
+#: ../core/admin/option-fields/header-general.php:141
+msgid "Optionally upload another logo which will be used as mobile/tablet logo."
+msgstr ""
+
+#: ../core/admin/option-fields/header-general.php:155
+msgid "Mobile retina logo (2x)"
+msgstr ""
+
+#: ../core/admin/option-fields/header-general.php:156
+msgid "Upload double sized mobile logo for devices with retina displays."
+msgstr ""
+
+#: ../core/admin/option-fields/header-general.php:170
+msgid "Custom logo URL"
+msgstr ""
+
+#: ../core/admin/option-fields/header-responsive.php:6
+msgid "Mobile Header"
+msgstr ""
+
+#: ../core/admin/option-fields/header-responsive.php:17
+msgid "Enable search button"
+msgstr ""
+
+#: ../core/admin/option-fields/header-responsive.php:18
+msgid "Search button will open search form on click/touch event on mobile/responsive header."
+msgstr ""
+
+#: ../core/admin/option-fields/header-sticky.php:6
+msgid "Sticky Header"
+msgstr ""
+
+#: ../core/admin/option-fields/header-sticky.php:16
+msgid "Enable sticky header"
+msgstr ""
+
+#: ../core/admin/option-fields/header-sticky.php:46
+msgid "Sticky header offset"
+msgstr ""
+
+#: ../core/admin/option-fields/header-sticky.php:47
+msgid "Specify after how many px of scrolling the sticky header appears"
+msgstr ""
+
+#: ../core/admin/option-fields/header-sticky.php:70
+msgid "Smart sticky"
+msgstr ""
+
+#: ../core/admin/option-fields/header-sticky.php:71
+msgid "Sticky header appears only if you scroll up"
+msgstr ""
+
+#: ../core/admin/option-fields/header-sticky.php:89
+msgid "Sticky header height"
+msgstr ""
+
+#: ../core/admin/option-fields/header-sticky.php:114
+msgid "Sticky logo and elements"
+msgstr ""
+
+#: ../core/admin/option-fields/header-sticky.php:117
+msgid "Inherit from main header"
+msgstr ""
+
+#: ../core/admin/option-fields/header-sticky.php:193
+msgid "Sticky logo"
+msgstr ""
+
+#: ../core/admin/option-fields/header-sticky.php:223
+msgid "Sticky Retina logo (2x)"
+msgstr ""
+
+#: ../core/admin/option-fields/header.php:8
+msgid "Header"
+msgstr ""
+
+#: ../core/admin/option-fields/knowledge-base-archive.php:40, ../core/admin/option-fields/search-archive.php:29
+msgid "Archive layout"
+msgstr ""
+
+#: ../core/admin/option-fields/knowledge-base-category.php:34
+msgid "Display category icon"
+msgstr ""
+
+#: ../core/admin/option-fields/knowledge-base-category.php:88
+msgid "Category layout"
+msgstr ""
+
+#: ../core/admin/option-fields/knowledge-base-layouts.php:7
+msgid "Knowledge Base Listing Layouts"
+msgstr ""
+
+#: ../core/admin/option-fields/knowledge-base-layouts.php:129
+msgid "Info"
+msgstr ""
+
+#: ../core/admin/option-fields/knowledge-base-layouts.php:131
+msgid "Layout B doesn't have any options because by design it only lists the article titles."
+msgstr ""
+
+#: ../core/admin/option-fields/knowledge-base-single.php:8
+msgid "Single article"
+msgstr ""
+
+#: ../core/admin/option-fields/knowledge-base.php:7
+msgid "Knowledge Base"
+msgstr ""
+
+#: ../core/admin/option-fields/layouts-image-ratio.php:7
+msgid "Images ratio"
+msgstr ""
+
+#: ../core/admin/option-fields/layouts-image-ratio.php:31
+msgid "Image ratio for layout A"
+msgstr ""
+
+#: ../core/admin/option-fields/layouts-image-ratio.php:43, ../core/admin/option-fields/layouts-image-ratio.php:119
+msgid "Your custom ratio for layout A"
+msgstr ""
+
+#: ../core/admin/option-fields/layouts-image-ratio.php:64
+msgid "Image ratio for layout B"
+msgstr ""
+
+#: ../core/admin/option-fields/layouts-image-ratio.php:76, ../core/admin/option-fields/layouts-image-ratio.php:151
+msgid "Your custom ratio for layout B"
+msgstr ""
+
+#: ../core/admin/option-fields/layouts-image-ratio.php:97
+msgid "KnowledgeBase Category Block"
+msgstr ""
+
+#: ../core/admin/option-fields/layouts-image-ratio.php:108
+msgid "Category image ratio for layout A"
+msgstr ""
+
+#: ../core/admin/option-fields/layouts-image-ratio.php:140
+msgid "Category image ratio for layout B"
+msgstr ""
+
+#: ../core/admin/option-fields/layouts-image-ratio.php:172
+msgid "Category image ratio for layout C"
+msgstr ""
+
+#: ../core/admin/option-fields/layouts-image-ratio.php:183
+msgid "Your custom ratio for layout C"
+msgstr ""
+
+#: ../core/admin/option-fields/layouts-image-ratio.php:204
+msgid "Category image ratio for layout D"
+msgstr ""
+
+#: ../core/admin/option-fields/layouts-image-ratio.php:215
+msgid "Your custom ratio for layout D"
+msgstr ""
+
+#: ../core/admin/option-fields/layouts-image-ratio.php:236
+msgid "Category image ratio for layout E"
+msgstr ""
+
+#: ../core/admin/option-fields/layouts-image-ratio.php:247
+msgid "Your custom ratio for layout E"
+msgstr ""
+
+#: ../core/admin/option-fields/miscellaneous.php:7
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../core/admin/option-fields/miscellaneous.php:20
+msgid "RTL mode (right to left)"
+msgstr ""
+
+#: ../core/admin/option-fields/miscellaneous.php:21
+msgid "Enable this option if the website is using right to left writing/reading"
+msgstr ""
+
+#: ../core/admin/option-fields/miscellaneous.php:32
+msgid "Skip RTL for specific language(s)"
+msgstr ""
+
+#: ../core/admin/option-fields/miscellaneous.php:33
+msgid "i.e. If you are using Arabic and English versions on the same WordPress installation you should put \"en_US\" in this field and its version will not be displayed as RTL. Note: To exclude multiple languages, separate by comma: en_US, de_DE"
+msgstr ""
+
+#: ../core/admin/option-fields/miscellaneous.php:51
+msgid "More string"
+msgstr ""
+
+#: ../core/admin/option-fields/miscellaneous.php:52
+msgid "Specify your \"more\" string to append after the limited post excerpts"
+msgstr ""
+
+#: ../core/admin/option-fields/miscellaneous.php:64
+msgid "Words to read per minute"
+msgstr ""
+
+#: ../core/admin/option-fields/miscellaneous.php:65
+msgid "Use this option to set the number of words your visitors read per minute, in order to fine-tune the calculation of the post reading time meta data"
+msgstr ""
+
+#: ../core/admin/option-fields/miscellaneous.php:80
+msgid "Default featured image"
+msgstr ""
+
+#: ../core/admin/option-fields/miscellaneous.php:81
+msgid "Upload your default featured image/placeholder. It will be displayed for posts that do not have a featured image set"
+msgstr ""
+
+#: ../core/admin/option-fields/miscellaneous.php:96
+msgid "404 image"
+msgstr ""
+
+#: ../core/admin/option-fields/miscellaneous.php:97
+msgid "Upload your 404 image. It will be displayed on the 404/not found page"
+msgstr ""
+
+#: ../core/admin/option-fields/page.php:8
+msgid "Page"
+msgstr ""
+
+#: ../core/admin/option-fields/page.php:97
+msgid "Image ratio for layout 1"
+msgstr ""
+
+#: ../core/admin/option-fields/performance.php:5
+msgid "Performance"
+msgstr ""
+
+#: ../core/admin/option-fields/performance.php:13
+msgid "Use minified CSS"
+msgstr ""
+
+#: ../core/admin/option-fields/performance.php:14
+msgid "Load all theme CSS files combined and minified into a single file."
+msgstr ""
+
+#: ../core/admin/option-fields/performance.php:22
+msgid "Use minified JS"
+msgstr ""
+
+#: ../core/admin/option-fields/performance.php:23
+msgid "Load all theme JavaScript files combined and minified into a single file."
+msgstr ""
+
+#: ../core/admin/option-fields/performance.php:38
+msgid "Disable additional image sizes"
+msgstr ""
+
+#: ../core/admin/option-fields/performance.php:39
+msgid "By default, the theme generates an additional size for each of the layouts. You can use this option to avoid creating additional sizes if you are not using a particular layout, in order to save server space."
+msgstr ""
+
+#: ../core/admin/option-fields/search-archive.php:7
+msgid "Search Template"
+msgstr ""
+
+#: ../core/admin/option-fields/search-archive.php:41
+msgid "Include in search"
+msgstr ""
+
+#: ../core/admin/option-fields/sidebar.php:13, ../core/admin/option-fields/sidebar.php:24
+msgid "Sidebars"
+msgstr ""
+
+#: ../core/admin/option-fields/sidebar.php:25
+msgid "Use this option to create additional sidebars for your website. Afterwards, you can manage sidebars content in the <a href=\"%s\">Apperance -> Widgets</a> settings."
+msgstr ""
+
+#: ../core/admin/option-fields/sidebar.php:28
+msgid "Custom sidebar"
+msgstr ""
+
+#: ../core/admin/option-fields/sidebar.php:31
+msgid "Add new"
+msgstr ""
+
+#: ../core/admin/option-fields/sidebar.php:37
+msgid "Sidebar name"
+msgstr ""
+
+#: ../core/admin/option-fields/translate.php:5
+msgid "Translation"
+msgstr ""
+
+#: ../core/admin/option-fields/translate.php:6
+msgid "Use these settings to quickly translate or change the text in this theme. If you want to remove the text completely instead of modifying it, you can use \"-1\" as a value for a particular field. Note: If you are using this theme for a multilingual website, you need to disable these options and use multilanguage plugins (such as WPML) and manual translation with .po and .mo files located inside the \"languages\" folder."
+msgstr ""
+
+#: ../core/admin/option-fields/translate.php:14
+msgid "Enable theme translation"
+msgstr ""
+
+#: ../core/admin/option-fields/typography.php:6
+msgid "Typography"
+msgstr ""
+
+#: ../core/admin/option-fields/typography.php:14
+msgid "Main text font"
+msgstr ""
+
+#: ../core/admin/option-fields/typography.php:22
+msgid "Headings font"
+msgstr ""
+
+#: ../core/admin/option-fields/typography.php:23
+msgid "This is the font used for titles and headings"
+msgstr ""
+
+#: ../core/admin/option-fields/typography.php:31, ../core/admin/option-fields/typography.php:40
+msgid "Navigation font"
+msgstr ""
+
+#: ../core/admin/option-fields/typography.php:32, ../core/admin/option-fields/typography.php:41
+msgid "This is the font used for main website navigation"
+msgstr ""
+
+#: ../core/admin/option-fields/typography.php:49
+msgid "Button font"
+msgstr ""
+
+#: ../core/admin/option-fields/typography.php:50
+msgid "This is the font used for buttons and special labels"
+msgstr ""
+
+#: ../core/admin/option-fields/typography.php:58
+msgid "Regular text font size"
+msgstr ""
+
+#: ../core/admin/option-fields/typography.php:66
+msgid "Small text font size"
+msgstr ""
+
+#: ../core/admin/option-fields/typography.php:74
+msgid "Main website navigation font size"
+msgstr ""
+
+#: ../core/admin/option-fields/typography.php:82
+msgid "Navigation icons (hamburger, search...) font size"
+msgstr ""
+
+#: ../core/admin/option-fields/typography.php:90
+msgid "Section title font size"
+msgstr ""
+
+#: ../core/admin/option-fields/typography.php:98
+msgid "Widget title font size"
+msgstr ""
+
+#: ../core/admin/option-fields/typography.php:106
+msgid "Punchline font size"
+msgstr ""
+
+#: ../core/admin/option-fields/typography.php:114
+msgid "H1 font size"
+msgstr ""
+
+#: ../core/admin/option-fields/typography.php:122
+msgid "H2 font size"
+msgstr ""
+
+#: ../core/admin/option-fields/typography.php:130
+msgid "H3 font size"
+msgstr ""
+
+#: ../core/admin/option-fields/typography.php:138
+msgid "H4 font size"
+msgstr ""
+
+#: ../core/admin/option-fields/typography.php:146
+msgid "H5 font size"
+msgstr ""
+
+#: ../core/admin/option-fields/typography.php:154
+msgid "H6 font size"
+msgstr ""
+
+#: ../core/admin/option-fields/typography.php:162
+msgid "Uppercase text"
+msgstr ""
+
+#: ../core/admin/option-fields/typography.php:163
+msgid "Select elements that you want to display with all CAPITAL LETTERS"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:453
+msgid "Something went wrong. Please refresh the page and try again!"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:599
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:604
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:713
+msgid "Welcome"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:720
+msgid "Child"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:726
+msgid "License"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:742, ../inc/merlin/class-merlin.php:1982
+msgid "Content"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:748
+msgid "Ready"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:853
+msgid "The welcome step has been displayed"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:947
+msgid "The license activation step has been displayed"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1017
+msgid "The child theme installation step has been displayed"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1104, ../inc/tgm/class-tgm-plugin-activation.php:2268
+msgid "Required"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1105
+msgid "req"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1145
+msgid "The plugin installation step has been displayed"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1191
+msgid "Select Demo"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1229
+msgid "The content import step has been displayed"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1309
+msgid "The final step has been displayed"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1386
+msgid "The existing child theme was activated"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1403
+msgid "The newly generated child theme was activated"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1424
+msgid "Yikes! The theme activation failed. Please try again or contact support."
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1433
+msgid "Please add your license key before attempting to activate one."
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1446
+msgid "The license activation was performed with the following results"
+msgstr ""
+
+#. translators: Expiration date
+#: ../inc/merlin/class-merlin.php:1505
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1511
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1515
+msgid "This appears to be an invalid license key. Please try again or contact support."
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1520
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#. translators: EDD Item Name
+#: ../inc/merlin/class-merlin.php:1525
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1529
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1533, ../inc/merlin/class-merlin.php:1492
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1623
+msgid "The child theme functions.php content was generated"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1654
+msgid "The child theme style.css content was generated"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1690
+msgid "The child theme screenshot was not generated, because of these results"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1688
+msgid "The child theme screenshot was copied to the child theme, with the following result"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1719
+msgid "Activating"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1735
+msgid "Updating"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1751, ../inc/merlin/class-merlin.php:1767, ../inc/merlin/class-merlin.php:1985, ../inc/merlin/class-merlin.php:1998, ../inc/merlin/class-merlin.php:2011, ../inc/merlin/class-merlin.php:2024, ../inc/merlin/class-merlin.php:2037, ../inc/merlin/class-merlin.php:2050, ../inc/merlin/class-merlin.php:2093
+msgid "Installing"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1771
+msgid "A plugin with the following data was processed"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1780, ../inc/merlin/class-merlin.php:1986, ../inc/merlin/class-merlin.php:1999, ../inc/merlin/class-merlin.php:2012, ../inc/merlin/class-merlin.php:2025, ../inc/merlin/class-merlin.php:2038, ../inc/merlin/class-merlin.php:2051
+msgid "Success"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1759
+msgid "A plugin with the following data will be processed"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1803
+msgid "The content importer AJAX call failed to start, because of incorrect data"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1808
+msgid "Invalid content!"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1819
+msgid "The content import AJAX call will be executed with this import data"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1861
+msgid "The content import AJAX call failed with this passed data"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1872
+msgid "Error"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1886
+msgid "The content importer AJAX call for retrieving total content import items failed to start, because of incorrect data."
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1891
+msgid "Invalid data!"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1983
+msgid "Demo content data."
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1984, ../inc/merlin/class-merlin.php:1997, ../inc/merlin/class-merlin.php:2010, ../inc/merlin/class-merlin.php:2023, ../inc/merlin/class-merlin.php:2036, ../inc/merlin/class-merlin.php:2049
+msgid "Pending"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1995
+msgid "Widgets"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:1996
+msgid "Sample widgets data."
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:2008
+msgid "Revolution Slider"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:2009
+msgid "Sample Revolution sliders data."
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:2021
+msgid "Options"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:2022
+msgid "Sample theme options data."
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:2034
+msgid "Redux Options"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:2035
+msgid "Redux framework options."
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:2047
+msgid "After import setup"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:2048
+msgid "After import setup."
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:2077
+msgid "The revolution slider import was executed"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:2114
+msgid "The home page was set"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:2124
+msgid "The blog page was set"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:2139
+msgid "The Hello world post status was set to draft"
+msgstr ""
+
+#: ../inc/merlin/class-merlin.php:2163
+msgid "This predefined demo import does not have the name parameter: import_file_name"
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: ../inc/tgm/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:352
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:386, ../inc/tgm/class-tgm-plugin-activation.php:822, ../inc/tgm/class-tgm-plugin-activation.php:2528, ../inc/tgm/class-tgm-plugin-activation.php:3575
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:388, ../inc/tgm/class-tgm-plugin-activation.php:2947
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: ../inc/tgm/class-tgm-plugin-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../inc/tgm/class-tgm-plugin-activation.php:392
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: ../inc/tgm/class-tgm-plugin-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:517
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:518
+msgid "Update Required"
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:932
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:932, ../inc/tgm/class-tgm-plugin-activation.php:929
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:929
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:1116, ../inc/tgm/class-tgm-plugin-activation.php:2943
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: ../inc/tgm/class-tgm-plugin-activation.php:1977
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:2271
+msgid "Recommended"
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:2287
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:2290
+msgid "External Source"
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:2293
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:2310
+msgid "Not Installed"
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:2316
+msgid "Active"
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:2314
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:2328
+msgid "Update recommended"
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:2325
+msgid "Requires Update"
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:2322
+msgid "Required Update not Available"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: ../inc/tgm/class-tgm-plugin-activation.php:2337
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: ../inc/tgm/class-tgm-plugin-activation.php:2383
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: ../inc/tgm/class-tgm-plugin-activation.php:2387
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: ../inc/tgm/class-tgm-plugin-activation.php:2391
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: ../inc/tgm/class-tgm-plugin-activation.php:2395
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:2477
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:2485
+msgid "Installed version:"
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:2493
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:2505
+msgid "Available version:"
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:2528
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:2542
+msgid "Plugin"
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:2543
+msgid "Source"
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:2544
+msgid "Type"
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:2548
+msgid "Version"
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:2549
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../inc/tgm/class-tgm-plugin-activation.php:2603
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../inc/tgm/class-tgm-plugin-activation.php:2609
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:2598
+msgid "Install %2$s"
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:2679
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:2718
+msgid "Update"
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:2754
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:2752
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:2797
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:2795
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:2903
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:2929
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:3153
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: ../inc/tgm/class-tgm-plugin-activation.php:3496
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../inc/tgm/class-tgm-plugin-activation.php:3498
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:3510
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../inc/tgm/class-tgm-plugin-activation.php:3512
+msgid "%1$s Installed successfully."
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:3513
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: ../inc/tgm/class-tgm-plugin-activation.php:3515
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:3502
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:3504
+msgid "%1$s Installed and activated successfully."
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:3505
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:3507
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/tgm/class-tgm-plugin-activation.php:3493
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/merlin/includes/class-merlin-customizer-importer.php:30
+msgid "The customizer import has finished successfully"
+msgstr ""
+
+#: ../inc/merlin/includes/class-merlin-customizer-importer.php:57
+msgid "Error: The customizer import file is missing! File path: %s"
+msgstr ""
+
+#: ../inc/merlin/includes/class-merlin-customizer-importer.php:70
+msgid "Error: The customizer import file does not have any content in it. Please make sure to use the correct customizer import file."
+msgstr ""
+
+#: ../inc/merlin/includes/class-merlin-customizer-importer.php:80
+msgid "Error: The customizer import file is not in a correct format. Please make sure to use the correct customizer import file."
+msgstr ""
+
+#: ../inc/merlin/includes/class-merlin-customizer-importer.php:86
+msgid "Error: The customizer import file is not suitable for current theme. You can only import customizer settings for the same theme or a child theme."
+msgstr ""
+
+#: ../inc/merlin/includes/class-merlin-downloader.php:49
+msgid "The file was not able to save to disk, while trying to download it"
+msgstr ""
+
+#: ../inc/merlin/includes/class-merlin-downloader.php:66
+msgid "Missing URL for downloading a file!"
+msgstr ""
+
+#: ../inc/merlin/includes/class-merlin-downloader.php:84
+msgid "An error occurred while fetching file from: %1$s%2$s%3$s!%4$sReason: %5$s - %6$s."
+msgstr ""
+
+#: ../inc/merlin/includes/class-merlin-redux-importer.php:32
+msgid "The Redux Framework data was imported"
+msgstr ""
+
+#: ../inc/merlin/includes/class-merlin-widget-importer.php:72
+msgid "Error: Widget import file could not be found."
+msgstr ""
+
+#: ../inc/merlin/includes/class-merlin-widget-importer.php:83
+msgid "Error: Widget import file does not have any content in it."
+msgstr ""
+
+#: ../inc/merlin/includes/class-merlin-widget-importer.php:105
+msgid "Error: Widget import data could not be read. Please try a different file."
+msgstr ""
+
+#: ../inc/merlin/includes/class-merlin-widget-importer.php:144
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr ""
+
+#: ../inc/merlin/includes/class-merlin-widget-importer.php:165
+msgid "Site does not support widget"
+msgstr ""
+
+#: ../inc/merlin/includes/class-merlin-widget-importer.php:198
+msgid "Widget already exists"
+msgstr ""
+
+#: ../inc/merlin/includes/class-merlin-widget-importer.php:260
+msgid "Imported to Inactive"
+msgstr ""
+
+#: ../inc/merlin/includes/class-merlin-widget-importer.php:256
+msgid "Imported"
+msgstr ""
+
+#: ../inc/merlin/includes/class-merlin-widget-importer.php:266
+msgid "No Title"
+msgstr ""
+
+#: ../inc/merlin/includes/class-merlin-widget-importer.php:328
+msgid "No results for widget import!"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:55
+msgid "The XMLReader class is missing! Please install the XMLReader PHP extension on your server"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:68
+msgid "Could not open the XML file for parsing!"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:248
+msgid "Content import start error: "
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:280, ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:173, ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:291, ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:364
+msgid "This WXR file (version %s) is newer than the importer (version %s) and may not be supported. Please consider updating."
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:504
+msgid "New AJAX call!"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:135
+msgid "Could not open the file for parsing"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:514
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:577
+msgid "Invalid author mapping"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:678
+msgid "Cannot import auto-draft posts"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:770
+msgid "Failed to import \"%s\": Invalid post type %s"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:780
+msgid "%s \"%s\" already exists."
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:858
+msgid "Skipping attachment \"%s\", fetching attachments disabled"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:872
+msgid "Failed to import \"%s\" (%s)"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:904, ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1822
+msgid "Imported \"%s\" (%s)"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:909
+msgid "Post %d remapped to %d"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:949
+msgid "Failed to import term: %s - %s"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1094
+msgid "Invalid file type"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1593
+msgid "Failed to import user \"%s\""
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1614
+msgid "Imported user \"%s\""
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1618
+msgid "User %d remapped to %d"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1783
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1827
+msgid "Term %d remapped to %d"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1895
+msgid "Meta for term_id %d : %s => %s ; successfully added!"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1886
+msgid "Failed to add metakey: %s, metavalue: %s to term_id: %d"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1947
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1969
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1975
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2000
+msgid "Running post-processing for post %d"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2013
+msgid "Could not find the post parent for \"%s\" (post #%d)"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2018
+msgid "Post %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2032
+msgid "Could not find the author for \"%s\" (post #%d)"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2037
+msgid "Post %d was imported with author \"%s\", but could not be found"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2063
+msgid "Post %d was marked for post-processing, but none was required."
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2074
+msgid "Could not update \"%s\" (post #%d) with mapped data"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2119
+msgid "Could not find the menu object for \"%s\" (post #%d)"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2124
+msgid "Post %d was imported with object \"%d\" of type \"%s\", but could not be found"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2146
+msgid "Could not find the comment parent for comment #%d"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2150
+msgid "Comment %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2164
+msgid "Could not find the author for comment #%d"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2168
+msgid "Comment %d was imported with author %d, but could not be found"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2185
+msgid "Could not update comment #%d with mapped data"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2216
+msgid "Faulty term_id provided in terms-to-be-remapped array %s"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2226
+msgid "No taxonomy provided in terms-to-be-remapped array for term #%d"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2236
+msgid "No parent_slug identified in remapping-array for term: %d"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2244
+msgid "The term(%d)\"s parent_slug (%s) is not found in the remapping-array."
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2258
+msgid "No data returned by get_term_by for term_id #%d"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2277
+msgid "Could not update \"%s\" (term #%d) with mapped data"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2287
+msgid "Term %d was successfully updated with parent %d"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2322
+msgid "Starting remapping of featured images"
+msgstr ""
+
+#: ../inc/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2331
+msgid "Remapping featured image ID %d to new ID %d for post ID %d"
+msgstr ""
+
+#: ../template-blank.php:3
+msgid "Blank"
+msgstr ""
+
+#: ../template-parts/general/header/elements/menu-placeholder.php:6
+msgid "Click here to add menu"
+msgstr ""

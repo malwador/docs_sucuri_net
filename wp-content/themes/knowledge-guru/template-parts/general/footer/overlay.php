@@ -1,0 +1,1 @@
+<div class="kbg-action-overlay"></div>

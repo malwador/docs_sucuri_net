@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="290px" viewBox="0 0 320 290" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>post_layout_a</title>
+    <g id="post_layout_a" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="320" height="290"></rect>
+        <rect id="Rectangle" fill="#00A3D7" opacity="0.149999991" x="214.822308" y="40" width="70.1811541" height="66.1764706" rx="4"></rect>
+        <rect id="Rectangle" fill="#00A3D7" opacity="0.149999991" x="214.822308" y="123.823529" width="70.1811541" height="66.1764706" rx="4"></rect>
+        <rect id="Rectangle" fill="#00A3D7" opacity="0.149999991" x="35" y="40" width="160" height="97.7777778" rx="4"></rect>
+        <rect id="Rectangle" fill="#00A3D7" opacity="0.149999991" x="35" y="158.222222" width="160" height="97.7777778" rx="4"></rect>
+        <path d="M39,40 L191,40 C193.209139,40 195,41.790861 195,44 L195,88.6315789 L195,88.6315789 L35,88.6315789 L35,44 C35,41.790861 36.790861,40 39,40 Z" id="Rectangle" fill="#00A3D7"></path>
+        <line x1="68.5" y1="101.5" x2="148.5" y2="101.5" id="Line" stroke="#00A3D7" stroke-width="3" stroke-linejoin="round"></line>
+        <line x1="68.5" y1="111.5" x2="148.5" y2="111.5" id="Line" stroke="#00A3D7" stroke-width="3" stroke-linejoin="round"></line>
+        <line x1="68.5" y1="121.5" x2="118.5" y2="121.5" id="Line" stroke="#00A3D7" stroke-width="3" stroke-linejoin="round"></line>
+        <path d="M39,158 L191,158 C193.209139,158 195,159.790861 195,162 L195,206.631579 L195,206.631579 L35,206.631579 L35,162 C35,159.790861 36.790861,158 39,158 Z" id="Rectangle" fill="#00A3D7"></path>
+        <line x1="68.5" y1="219.5" x2="148.5" y2="219.5" id="Line" stroke="#00A3D7" stroke-width="3" stroke-linejoin="round"></line>
+        <line x1="68.5" y1="229.5" x2="148.5" y2="229.5" id="Line" stroke="#00A3D7" stroke-width="3" stroke-linejoin="round"></line>
+        <line x1="68.5" y1="239.5" x2="118.5" y2="239.5" id="Line" stroke="#00A3D7" stroke-width="3" stroke-linejoin="round"></line>
+    </g>
+</svg>

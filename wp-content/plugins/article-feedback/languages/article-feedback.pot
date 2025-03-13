@@ -1,0 +1,113 @@
+# Copyright (C) 2021 MeksHQ
+# This file is distributed under the same license as the Article Feedback / Reaction Box plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Article Feedback / Reaction Box 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/article-feedback\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-07-15T15:13:46+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: article-feedback\n"
+
+#. Plugin Name of the plugin
+msgid "Article Feedback / Reaction Box"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://mekshq.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Collect data from your posts/articles ( custom post types ) about use satisfaction."
+msgstr ""
+
+#. Author of the plugin
+msgid "MeksHQ"
+msgstr ""
+
+#: inc/admin/class.options.php:88
+msgid "Display in post types"
+msgstr ""
+
+#: inc/admin/class.options.php:94
+msgid "Display position"
+msgstr ""
+
+#: inc/admin/class.options.php:100
+msgid "Title"
+msgstr ""
+
+#: inc/admin/class.options.php:106
+msgid "Type"
+msgstr ""
+
+#: inc/admin/class.options.php:112
+msgid "Label Yes"
+msgstr ""
+
+#: inc/admin/class.options.php:118
+msgid "Label No"
+msgstr ""
+
+#: inc/admin/class.options.php:124
+msgid "Icon Type"
+msgstr ""
+
+#: inc/admin/class.options.php:130
+msgid "Hide Yes Label"
+msgstr ""
+
+#: inc/admin/class.options.php:136
+msgid "Hide No Label"
+msgstr ""
+
+#: inc/admin/class.options.php:142
+msgid "Thank You Message"
+msgstr ""
+
+#: inc/admin/class.options.php:148
+msgid "Not Satisfied Message"
+msgstr ""
+
+#: inc/admin/class.options.php:170
+msgid "Settings"
+msgstr ""
+
+#: inc/admin/class.options.php:183
+#: inc/admin/class.options.php:184
+msgid "Article Feedback"
+msgstr ""
+
+#: inc/admin/class.options.php:382
+msgid "Above"
+msgstr ""
+
+#: inc/admin/class.options.php:388
+msgid "Bellow"
+msgstr ""
+
+#: inc/admin/class.options.php:395
+msgid "Above and Bellow"
+msgstr ""
+
+#: inc/admin/class.options.php:422
+msgid "Button"
+msgstr ""
+
+#: inc/admin/class.options.php:428
+msgid "Icon"
+msgstr ""
+
+#: inc/admin/class.options.php:502
+msgid "Smiley"
+msgstr ""
+
+#: inc/admin/class.options.php:509
+msgid "Thumbs"
+msgstr ""

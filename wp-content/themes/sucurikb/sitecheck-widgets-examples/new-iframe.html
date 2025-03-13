@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sucuri Sitecheck Widget</title>
+    <style>
+        .container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .wrapper {
+            width: 100%;
+            max-width: 500px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="wrapper">
+        <div id="sucuri-sitecheck" data-background="none" data-padding="0" data-bwidth="0" data-bradius="0"></div>
+        <script>
+            
+        /**
+         * SiteCheck Widget
+         * http://sucuri.net/
+         * https://kb.sucuri.net/plugins/sitecheck-widget
+         *
+         * [Sucuri SiteCheck](http://sitecheck.sucuri.net/) scanner will check your website
+         * for known malware, blacklisting status, website errors, and out-of-date software.
+         * **Disclaimer:** Sucuri SiteCheck is a free &amp; remote scanner. Although we do
+         * our best to provide the best results, 100% accuracy is not realistic, and not
+         * guaranteed.
+         *
+         * ### Settings
+         *
+         * You can customize the design of the widget using these options, they will override
+         * the default values set by the widget's JavaScript code. To use these options you will
+         * need to add attributes to the main container like this `data-{option_name}`.
+         *
+         * ```config
+         * @param {bool}    [debug]      [false]
+         * @param {string}  [affcode]    [false]
+         * @param {integer} [width]      [300]
+         * @param {integer} [height]     [auto]
+         * @param {string}  [position]   [none]
+         * @param {integer} [ptop]       [10]
+         * @param {integer} [pleft]      [10]
+         * @param {integer} [pbottom]    [10]
+         * @param {integer} [pright]     [10]
+         * @param {integer} [padding]    [20]
+         * @param {integer} [bwidth]     [3]
+         * @param {hexdec}  [bcolor]     [#333]
+         * @param {integer} [bradius]    [6]
+         * @param {hexdec}  [background] [#d7d7d7]
+         * @param {hexdec}  [color]      [#333]
+         * ```
+         */
+
+        (function(){
+            var global = this;
+            var config = {
+                target: false,
+                container: 'sucuri-sitecheck',
+                sitecheck_url: 'http://sitecheck.sucuri.net/results/DOMAIN',
+                affcode_url: 'http://affl.sucuri.net/?affl=AFFCODE&sitecheck=DOMAIN',
+                widget: {
+                    debug: false,
+                    identifier: 'sucuri-sitecheck-wrap',
+                    affcode: false,
+                    width: 300,
+                    height: 'auto',
+                    position: 'none',
+                    ptop: 10,
+                    pleft: 10,
+                    pbottom: 10,
+                    pright: 10,
+                    padding: 20,
+                    bwidth: 3,
+                    bcolor: '#D6D6D6',
+                    bradius: 6,
+                    background: '#d7d7d7',
+                    color: '#1A272C'
+                },
+                content: {
+                    title: 'SiteCheck Website Scanner',
+                    description: 'Scan your site for malware & blacklists.',
+                    input_text: 'Enter URL',
+                    scan_button: 'Scan',
+                    credits: 'Powered by <a href="http://sitecheck.sucuri.net/" target="_blank">Sucuri SiteCheck</a>'
+                }
+            };
+
+            global.debug = function(message){
+                if( config.widget.debug && console ){
+                    console.log('Sucuri SiteCheck: ' + message);
+                }
+            };
+
+            global.get_attr = function(name, remove_attr){
+                if( !config.target_obj ){ return false; }
+
+                var attr_value = config.target_obj.getAttribute(name);
+                if( attr_value == null ){ return false; }
+
+                if( remove_attr != false ){
+                    config.target_obj.removeAttribute(name);
+                    global.debug('Removing element attribute '+name);
+                }
+                return attr_value;
+            };
+
+            global.add_element = function(tag, target, attrs, content){
+                var new_tag = document.createElement(tag);
+                for( var attr_key in attrs ){
+                    new_tag.setAttribute(attr_key, attrs[attr_key]);
+                }
+                if( content != undefined ){ new_tag.innerHTML = content; }
+                target.appendChild(new_tag);
+                return new_tag;
+            };
+
+            global.initialize = function(){
+                global.debug('Widget initialized');
+                config.target_obj = document.getElementById(config.container);
+
+                if( config.target_obj ){
+                    var valid_options = [
+                        'debug',
+                        'affcode',
+                        'position',
+                        'width',
+                        'height',
+                        'padding',
+                        'background',
+                        'color',
+                        'bwidth',
+                        'bcolor',
+                        'bradius',
+                        'ptop',
+                        'pleft',
+                        'pbottom',
+                        'pright'
+                    ];
+
+                    for( var i in valid_options ){
+                        var option_name = valid_options[i];
+                        var option_value = global.get_attr('data-'+option_name);
+
+                        if( option_value ){
+                            if( option_value == 'true'  ){ option_value = true; }
+                            if( option_value == 'false' ){ option_value = false; }
+
+                            config.widget[option_name] = option_value;
+                            global.debug('Setting option '+option_name+' to '+option_value);
+                        }
+                    }
+
+                    global.create_widget();
+                }
+            };
+
+            global.create_widget = function(){
+                global.debug('Creating main container');
+
+                var styles = '';
+                styles += 'width:'+config.widget.width+'px;';
+                global.debug('Set width to '+config.widget.width+'px');
+
+                if( config.widget.height != 'auto' ){
+                    config.widget.height += 'px';
+                }
+                styles += 'height:'+config.widget.height+';';
+                global.debug('Set height to '+config.widget.height);
+
+                switch( config.widget.position ){
+                    case 'top-left':
+                    case 'top-right':
+                    case 'bottom-left':
+                    case 'bottom-right':
+                        position_class = 'sucuri-sitecheck-'+config.widget.position;
+                        break;
+                    default:
+                        var position_class = '';
+                        break;
+                }
+
+                var widget = global.add_element('div', config.target_obj, {
+                    'id': 'sucuri-sitecheck-wrap',
+                    'class': position_class,
+                    'style': styles
+                });
+
+                global.draw_content(widget);
+            };
+
+            global.draw_content = function(container){
+                global.add_element(
+                    'h3', container, { 'id':'sucuri-sitecheck-title' },
+                    config.content.title
+                );
+                global.add_element(
+                    'p', container, { 'id':'sucuri-sitecheck-desc' },
+                    config.content.description
+                );
+                var form = global.add_element('div', container, {
+                    'id': 'sucuri-sitecheck-form',
+                    'class': 'sucuri-sitecheck-clearfix'
+                });
+                global.add_element('input', form, {
+                    'type': 'text',
+                    'placeholder': config.content.input_text,
+                    'id': 'sucuri-sitecheck-inputurl'
+                });
+                global.add_element('a', form, {
+                    'href': '#',
+                    'target': '_blank',
+                    'id': 'sucuri-sitecheck-scanbtn'
+                }, config.content.scan_button);
+                global.add_element(
+                    'p', container, { 'id':'sucuri-sitecheck-credits' },
+                    config.content.credits
+                );
+
+                global.append_styles();
+                global.bind_events();
+            };
+
+            global.append_styles = function(){
+                var css = '';
+                css += '#sucuri-sitecheck{color:'+config.widget.color+'}';
+                css += '#sucuri-sitecheck *{font-family:Arial,Helvetica,sans-serif;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}';
+                css += '#sucuri-sitecheck .sucuri-sitecheck-clearfix:before, #sucuri-sitecheck .sucuri-sitecheck-clearfix:after{display:table;content:" "}';
+                css += '#sucuri-sitecheck .sucuri-sitecheck-clearfix:after{clear:both}';
+                css += '#sucuri-sitecheck #sucuri-sitecheck-wrap{background:'+config.widget.background+';padding:'+config.widget.padding+'px;border:'+config.widget.bwidth+'px solid '+config.widget.bcolor+';border-radius:'+config.widget.bradius+'px}';
+                css += '#sucuri-sitecheck .sucuri-sitecheck-top-left, #sucuri-sitecheck .sucuri-sitecheck-top-right, #sucuri-sitecheck .sucuri-sitecheck-bottom-left, #sucuri-sitecheck .sucuri-sitecheck-bottom-right{position:fixed;z-index:9999}';
+                css += '#sucuri-sitecheck .sucuri-sitecheck-top-left{top:'+config.widget.ptop+'px;left:'+config.widget.pleft+'px}';
+                css += '#sucuri-sitecheck .sucuri-sitecheck-top-right{top:'+config.widget.ptop+'px;right:'+config.widget.pright+'px}';
+                css += '#sucuri-sitecheck .sucuri-sitecheck-bottom-left{bottom:'+config.widget.pbottom+'px;left:'+config.widget.pleft+'px}';
+                css += '#sucuri-sitecheck .sucuri-sitecheck-bottom-right{bottom:'+config.widget.pbottom+'px;right:'+config.widget.pright+'px}';
+                css += '#sucuri-sitecheck #sucuri-sitecheck-title{font-size:16px;font-weight:bold;color:'+config.widget.color+';line-height:initial;margin:0}';
+                css += '#sucuri-sitecheck #sucuri-sitecheck-form{margin:8px 0}';
+                css += '#sucuri-sitecheck #sucuri-sitecheck-inputurl, #sucuri-sitecheck #sucuri-sitecheck-scanbtn{float:left;border:1px solid #028673}';
+                css += '#sucuri-sitecheck #sucuri-sitecheck-inputurl{width:70%;height:initial;background:#fff;font-size:14px;line-height:16px;opacity:1;margin:0;padding:10px;border-right:none;border-radius:0}';
+                css += '#sucuri-sitecheck #sucuri-sitecheck-scanbtn{width:30%;background:#028673;color:#fff;text-align:center;line-height:20px;padding:8px 0}';
+                css += '#sucuri-sitecheck a{color:#028673;text-decoration:none}';
+                css += '#sucuri-sitecheck p{font-size:12px;margin:0}';
+                css += '#sucuri-sitecheck #sucuri-sitecheck-credits{font-size:10px}';
+                css += '@media (max-width: 630px){';
+                css += '#sucuri-sitecheck .sucuri-sitecheck-top-left, #sucuri-sitecheck .sucuri-sitecheck-top-right, #sucuri-sitecheck .sucuri-sitecheck-bottom-left, #sucuri-sitecheck .sucuri-sitecheck-bottom-right{position:initial}';
+                css += '}';
+
+                var doc_head = document.head || document.getElementsByTagName('head')[0];
+                var css_sheet = document.createElement('style');
+                css_sheet.type = 'text/css';
+                if( css_sheet.styleSheet ){
+                    css_sheet.styleSheet.cssText = css;
+                } else {
+                    css_sheet.appendChild(document.createTextNode(css));
+                }
+                doc_head.appendChild(css_sheet);
+            };
+
+            global.bind_events = function(){
+                var scan_btn = document.getElementById('sucuri-sitecheck-scanbtn');
+                if( scan_btn ){
+                    scan_btn.onclick = function(){
+                        var domain = document.getElementById('sucuri-sitecheck-inputurl').value;
+                        if( domain != '' ){
+                            var site_url;
+                            var affiliation_code = global.get_affiliation_code();
+                            if( affiliation_code ){
+                                site_url = config.affcode_url;
+                                site_url = site_url.replace('AFFCODE', affiliation_code);
+                            } else {
+                                site_url = config.sitecheck_url;
+                            }
+                            site_url = site_url.replace('DOMAIN', domain);
+                            global.debug('Scan url '+site_url);
+                            scan_btn.setAttribute('href', site_url);
+                        } else {
+                            global.debug('URL to scan is empty');
+                            return false;
+                        }
+                    };
+                }
+            };
+
+            global.get_affiliation_code = function(){
+                var affcode = config.widget.affcode;
+                if( affcode ){
+                    var valid_code = affcode.match(/^([a-zA-Z0-9]{20,60})$/);
+                    if( valid_code != null ){
+                        global.debug('Valid affiliation code '+valid_code[1]);
+                        return valid_code[1];
+                    } else {
+                        global.debug('Invalid affiliation code');
+                    }
+                }
+                return false;
+            };
+
+            global.initialize();
+        })();
+
+        </script>
+    </div>
+</div>
+</body>
+</html>

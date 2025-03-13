@@ -1,0 +1,70 @@
+# Copyright (C) 2021 qa
+# This file is distributed under the same license as the qa package.
+msgid ""
+msgstr ""
+"Project-Id-Version: qa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: inc/admin/class.options.php:88
+msgid "Initialize search after (number of characters)"
+msgstr ""
+
+#: inc/admin/class.options.php:94
+msgid "Display description in search results"
+msgstr ""
+
+#: inc/admin/class.options.php:100
+msgid "Description limit"
+msgstr ""
+
+#: inc/admin/class.options.php:106
+msgid "No results found"
+msgstr ""
+
+#: inc/admin/class.options.php:112
+msgid "Include in search results"
+msgstr ""
+
+#: inc/admin/class.options.php:132, inc/admin/class.options.php:154
+msgid "Settings"
+msgstr ""
+
+#: inc/admin/class.options.php:145, inc/admin/class.options.php:153
+msgid "Quick Answers - Live Ajax Search"
+msgstr ""
+
+#: inc/admin/class.options.php:146
+msgid "Live Ajax Search"
+msgstr ""
+
+#: inc/admin/class.searches-page.php:33, inc/admin/class.searches-page.php:34
+msgid "Failed Searches"
+msgstr ""
+
+#: inc/admin/class.searches-table.php:21
+msgid "Search"
+msgstr ""
+
+#: inc/admin/class.searches-table.php:22, inc/admin/class.searches-table.php:214
+msgid "Searches"
+msgstr ""
+
+#: inc/admin/class.searches-table.php:125
+msgid "No searches avaliable."
+msgstr ""
+
+#: inc/admin/class.searches-table.php:215
+msgid "Tags"
+msgstr ""
+
+#: inc/admin/class.searches-table.php:216
+msgid "Date"
+msgstr ""

@@ -1,0 +1,206 @@
+<link rel='stylesheet' id='foundation-css-css'  href='/wp-content/themes/sucurikb/css/foundation.min.css' type='text/css' media='all' />
+<style type="text/css">
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans',sans-serif;
+        font-style: normal;
+    font-weight: 400;
+    color: inherit;
+    text-rendering: optimizeLegibility;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+body {
+    background-repeat: no-repeat;
+    font-family: 'Open Sans',sans-serif;
+    background-color: #fff;
+}
+.copytoclipboard {
+    background-image: linear-gradient(to bottom, #428bca 0px, #2d6ca2 100%);
+    background-repeat: repeat-x;
+    border-color: #2b669a;
+    border-radius: 5em;
+    font-size: 13px;
+    padding: 7px 20px;
+    color: #fff;
+    display: inline-block;
+    line-height: 1.2;
+    cursor: pointer;
+}
+.copytoclipboard:hover {
+    background: #478237;
+}
+</style>
+
+<div class="article-content sitecheck-preview-form grid-container">
+    <form method="post" id="sitecheck-widget-form" class="form-horizontal" role="form">
+        <div class="grid-x grid-margin-x">
+            <div class="form-group cell large-4 medium-4 small-6">
+                <label class="control-label">Width</label>
+                <input type="text" name="widget-width" class="form-control" placeholder="e.g. 300" />
+            </div>
+
+            <div class="form-group cell large-4 medium-4 small-6">
+                <label class="control-label">Height</label>
+                <input type="text" name="widget-height" class="form-control" placeholder="e.g. 150" />
+            </div>
+
+            <div class="form-group cell large-4 medium-4 small-6">
+                <label class="control-label">Padding</label>
+                <input type="text" name="widget-padding" class="form-control" placeholder="e.g. 20" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label">Affiliation code</label>
+            <input type="text" name="widget-affcode" class="form-control" placeholder="e.g. 0a593j66a3lz..." />
+        </div>
+
+        <div class="form-group">
+            <label class="control-label">Positioning</label>
+            <select name="widget-position" class="form-control">
+                <option value="none">Default</option>
+                <option value="top-left">Top Left</option>
+                <option value="top-right">Top Right</option>
+                <option value="bottom-left">Bottom Left</option>
+                <option value="bottom-right">Bottom Right</option>
+            </select>
+        </div>
+
+        <div class="grid-x grid-margin-x">
+            <div class="form-group cell large-3 medium-3 small-12">
+                <label class="control-label">Top margin</label>
+                <input type="text" name="widget-ptop" class="form-control" placeholder="e.g. 10" />
+            </div>
+
+            <div class="form-group cell large-3 medium-3 small-12">
+                <label class="control-label">Bottom margin</label>
+                <input type="text" name="widget-pbottom" class="form-control" placeholder="e.g. 10" />
+            </div>
+            <div class="form-group cell large-3 medium-3 small-12">
+                <label class="control-label">Left margin</label>
+                <input type="text" name="widget-pleft" class="form-control" placeholder="e.g. 10" />
+            </div>
+
+            <div class="form-group cell large-3 medium-3 small-12">
+                <label class="control-label">Right margin</label>
+                <input type="text" name="widget-pright" class="form-control" placeholder="e.g. 10" />
+            </div>
+        </div>
+
+        <div class="grid-x grid-margin-x">
+            <div class="form-group cell large-3 medium-3 small-12">
+                <label class="control-label">Border width</label>
+                <input type="text" name="widget-bwidth" class="form-control" placeholder="e.g. 3" />
+            </div>
+
+            <div class="form-group cell large-3 medium-3 small-12">
+                <label class="control-label">Border radius</label>
+                <input type="text" name="widget-bradius" class="form-control" placeholder="e.g. 6" />
+            </div>
+            <div class="form-group cell large-3 medium-3 small-12">
+                <label class="control-label">Border color</label>
+                <input type="text" name="widget-bcolor" class="form-control" placeholder="e.g. #333" />
+            </div>
+
+            <div class="form-group cell large-3 medium-3 small-12">
+                <label class="control-label">Text color</label>
+                <input type="text" name="widget-color" class="form-control" placeholder="e.g. #333" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label">Background</label>
+            <input type="text" name="widget-background" class="form-control" placeholder="e.g. #ddd -or- url(/remote/image.jpg)" />
+        </div>
+    </form>
+</div>
+
+<h4>Preview</h4>
+
+<div class="sitecheck-preview" id="sitecheck-widget-code"><div id="sucuri-sitecheck" data-width="262"></div>
+<script type="text/javascript" src="//sucuri.net/sucuri-sitecheck-widget.js"></script>
+</div>
+
+<h4>Source</h4>
+
+<div><input type="text" id="sourceCode" value="&lt;div id=&quot;sucuri-sitecheck&quot; data-width=&quot;262&quot;&gt;&lt;/div&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;//sucuri.net/sucuri-sitecheck-widget.js&quot;&gt;&lt;/script&gt;" style="width: 100%; height: 50px"></div>
+<div><button class="copytoclipboard" onclick="copySourceCode()">Copy code to clipboard</button></div>
+                        
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<script type="text/javascript">
+        jQuery(document).ready(function(){
+            var sitecheck_widget_params = {};
+
+            $('#sitecheck-widget-form input:text, #sitecheck-widget-form select').on('change', function(e){
+                var element = $(this);
+                var param_name = element.attr('name');
+                var param_value = element.val();
+
+                if( param_value != '' ){
+                    sitecheck_widget_params[param_name] = param_value;
+
+                    var sitecheck_widget_example = $('#sucuri-sitecheck > #sucuri-sitecheck-wrap');
+                    switch(param_name){
+                        case 'widget-width':
+                        case 'widget-height':
+                        case 'widget-padding':
+                        case 'widget-background':
+                        case 'widget-color':
+                            param_name = param_name.replace('widget-', '');
+                            sitecheck_widget_example.css(param_name, param_value);
+                            if( param_name == 'color' ){
+                                sitecheck_widget_example.find('#sucuri-sitecheck-title').css(param_name, param_value);
+                            }
+                            break;
+                        case 'widget-ptop':
+                        case 'widget-pleft':
+                        case 'widget-pbottom':
+                        case 'widget-pright':
+                            var sides = [ 'top', 'left', 'bottom', 'right' ];
+                            var css_obj = sitecheck_widget_example.prop('style');
+                            for( var i in sides ){ css_obj.removeProperty(sides[i]) }
+                            param_name = param_name.replace('widget-p', '');
+                            sitecheck_widget_example.css(param_name, param_value+'px');
+                            break;
+                        case 'widget-position':
+                            sitecheck_widget_example.removeClass();
+                            sitecheck_widget_example.addClass('sucuri-sitecheck-'+param_value);
+                            break;
+                        case 'widget-bwidth':
+                        case 'widget-bradius':
+                        case 'widget-bcolor':
+                            param_name = param_name.replace('widget-b', 'border-');
+                            if( param_name != 'border-color' ){ param_value += 'px' }
+                            sitecheck_widget_example.css(param_name, param_value);
+                            break;
+                        case 'widget-affcode':
+                            var sitecheck_widget_credits = $('#sucuri-sitecheck #sucuri-sitecheck-credits a');
+                            var sitecheck_widget_credits_href = sitecheck_widget_credits.attr('href');
+                            sitecheck_widget_credits.attr('href', sitecheck_widget_credits_href + '?clickid=' + param_value);
+                            break;
+                    }
+                }
+            });
+        });
+        </script>
+
+<script type="text/javascript">
+
+    function copySourceCode() {
+        var siteCheckSource = document.getElementById('sourceCode');
+        siteCheckSource.select();
+        document.execCommand("copy");
+    }
+
+
+    jQuery(document).ready(function(){
+        
+        $('#sitecheck-widget-form input:text, #sitecheck-widget-form select').on('change', function(e){
+            var siteCheckSource = document.getElementById('sitecheck-widget-code');
+            document.getElementById('sourceCode').value = siteCheckSource.innerHTML;
+        });
+        
+    });
+</script>

@@ -1,0 +1,362 @@
+# Copyright (C) 2021 MeksHQ
+# This file is distributed under the same license as the Knowledge Base Blocks plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Knowledge Base Blocks 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/knowledge-base-blocks\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-07-08T17:13:20+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: kbg\n"
+
+#. Plugin Name of the plugin
+#: inc/extensions.php:65
+#: inc/extensions.php:83
+msgid "Knowledge Base Blocks"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://mekshq.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Special Gutenberg blocks for KnowledgeGuru theme"
+msgstr ""
+
+#. Author of the plugin
+msgid "MeksHQ"
+msgstr ""
+
+#: inc/class-config.php:48
+msgid "Category Image"
+msgstr ""
+
+#: inc/class-config.php:54
+#: inc/class-config.php:65
+#: inc/class-knowledge-base.php:545
+#: assets/js/editor.blocks.js:91
+#: src/blocks/knowledge-base/components/Button.js:11
+msgid "Articles"
+msgstr ""
+
+#: inc/class-config.php:59
+msgid "Category Icon"
+msgstr ""
+
+#: inc/class-config.php:70
+msgid "Category List"
+msgstr ""
+
+#: inc/class-config.php:76
+msgid "All Articles"
+msgstr ""
+
+#: inc/class-helpers.php:194
+#: assets/js/editor.blocks.js:510
+#: assets/js/editor.blocks.js:777
+#: src/blocks/knowledge-base/category-icon/edit.js:225
+#: src/blocks/knowledge-base/category-image/edit.js:227
+msgid "Full"
+msgstr ""
+
+#: inc/class-knowledge-base.php:480
+#: assets/js/editor.blocks.js:181
+#: src/blocks/knowledge-base/components/ButtonList.js:11
+msgid "View all"
+msgstr ""
+
+#: inc/class-knowledge-base.php:484
+msgid "articles"
+msgstr ""
+
+#: inc/extensions.php:109
+msgid "Block - Contact box icon 140x140"
+msgstr ""
+
+#: inc/extensions.php:116
+msgid "Block - Contact box image 260px width"
+msgstr ""
+
+#: inc/extensions.php:123
+msgid "Block - Contact box image large 1102x500"
+msgstr ""
+
+#: inc/extensions.php:130
+msgid "Block - Search icon 430 width"
+msgstr ""
+
+#: inc/extensions.php:137
+msgid "Block - Category list icon"
+msgstr ""
+
+#: inc/extensions.php:157
+msgid "Contact box icon 140x140"
+msgstr ""
+
+#: inc/extensions.php:158
+msgid "Contact box image 260x260"
+msgstr ""
+
+#: inc/extensions.php:177
+msgid "Quick links menu (Search box block)"
+msgstr ""
+
+#: inc/template-functions.php:187
+msgid "Inherit"
+msgstr ""
+
+#: inc/template-functions.php:190
+#: assets/js/editor.blocks.js:510
+#: assets/js/editor.blocks.js:777
+#: assets/js/editor.blocks.js:846
+#: src/blocks/knowledge-base/category-icon/edit.js:259
+#: src/blocks/knowledge-base/category-image/edit.js:261
+#: src/blocks/knowledge-base/category-list/edit.js:255
+msgid "None"
+msgstr ""
+
+#: assets/js/editor.blocks.js:275
+#: src/plugins/sidebar-plugin/index.js:115
+msgid "Standard sidebar"
+msgstr ""
+
+#: assets/js/editor.blocks.js:275
+#: src/plugins/sidebar-plugin/index.js:121
+msgid "Sticky sidebar"
+msgstr ""
+
+#: assets/js/editor.blocks.js:275
+#: src/plugins/sidebar-plugin/index.js:144
+#: src/plugins/sidebar-plugin/index.js:148
+msgid "Sidebar Options"
+msgstr ""
+
+#: assets/js/editor.blocks.js:301
+#: src/blocks/accordion/index.js:19
+msgid "FAQ"
+msgstr ""
+
+#: assets/js/editor.blocks.js:301
+#: src/blocks/accordion/index.js:24
+msgid "faq"
+msgstr ""
+
+#: assets/js/editor.blocks.js:301
+#: src/blocks/accordion/index.js:25
+msgid "accordion"
+msgstr ""
+
+#: assets/js/editor.blocks.js:301
+#: src/blocks/accordion/index.js:26
+msgid "kbg"
+msgstr ""
+
+#: assets/js/editor.blocks.js:462
+#: src/blocks/accordion-item/index.js:15
+msgid "FAQ item"
+msgstr ""
+
+#: assets/js/editor.blocks.js:476
+#: src/blocks/accordion-item/edit.js:48
+msgid "Expanded"
+msgstr ""
+
+#: assets/js/editor.blocks.js:476
+#: src/blocks/accordion-item/edit.js:49
+msgid "Open FAQ item by default"
+msgstr ""
+
+#: assets/js/editor.blocks.js:510
+#: assets/js/editor.blocks.js:777
+#: assets/js/editor.blocks.js:846
+#: src/blocks/knowledge-base/category-icon/edit.js:179
+#: src/blocks/knowledge-base/category-image/edit.js:181
+#: src/blocks/knowledge-base/category-list/edit.js:180
+msgid "Layouts"
+msgstr ""
+
+#: assets/js/editor.blocks.js:510
+#: assets/js/editor.blocks.js:777
+#: src/blocks/knowledge-base/category-icon/edit.js:211
+#: src/blocks/knowledge-base/category-image/edit.js:213
+msgid "Description"
+msgstr ""
+
+#: assets/js/editor.blocks.js:510
+#: assets/js/editor.blocks.js:777
+#: src/blocks/knowledge-base/category-icon/edit.js:214
+#: src/blocks/knowledge-base/category-image/edit.js:216
+msgid "Show Description"
+msgstr ""
+
+#: assets/js/editor.blocks.js:510
+#: assets/js/editor.blocks.js:777
+#: src/blocks/knowledge-base/category-icon/edit.js:221
+#: src/blocks/knowledge-base/category-image/edit.js:223
+msgid "Type"
+msgstr ""
+
+#: assets/js/editor.blocks.js:510
+#: assets/js/editor.blocks.js:777
+#: src/blocks/knowledge-base/category-icon/edit.js:224
+#: src/blocks/knowledge-base/category-image/edit.js:226
+msgid "Excerpt"
+msgstr ""
+
+#: assets/js/editor.blocks.js:510
+#: assets/js/editor.blocks.js:777
+#: src/blocks/knowledge-base/category-icon/edit.js:237
+#: src/blocks/knowledge-base/category-image/edit.js:239
+msgid "Max number of words in excerpt"
+msgstr ""
+
+#: assets/js/editor.blocks.js:510
+#: assets/js/editor.blocks.js:777
+#: assets/js/editor.blocks.js:846
+#: src/blocks/knowledge-base/category-icon/edit.js:254
+#: src/blocks/knowledge-base/category-image/edit.js:256
+#: src/blocks/knowledge-base/category-list/edit.js:250
+msgid "Choose:"
+msgstr ""
+
+#: assets/js/editor.blocks.js:510
+#: assets/js/editor.blocks.js:777
+#: assets/js/editor.blocks.js:846
+#: src/blocks/knowledge-base/category-icon/edit.js:257
+#: src/blocks/knowledge-base/category-image/edit.js:259
+#: src/blocks/knowledge-base/category-list/edit.js:253
+msgid "Button"
+msgstr ""
+
+#: assets/js/editor.blocks.js:510
+#: assets/js/editor.blocks.js:777
+#: assets/js/editor.blocks.js:846
+#: src/blocks/knowledge-base/category-icon/edit.js:258
+#: src/blocks/knowledge-base/category-image/edit.js:260
+#: src/blocks/knowledge-base/category-list/edit.js:254
+msgid "Link"
+msgstr ""
+
+#: assets/js/editor.blocks.js:510
+#: assets/js/editor.blocks.js:777
+#: src/blocks/knowledge-base/category-icon/edit.js:292
+#: src/blocks/knowledge-base/category-image/edit.js:293
+msgid "Knowledge Base Categories"
+msgstr ""
+
+#: assets/js/editor.blocks.js:846
+#: src/blocks/knowledge-base/category-list/edit.js:201
+msgid "Number of articles"
+msgstr ""
+
+#: assets/js/editor.blocks.js:846
+#: src/blocks/knowledge-base/category-list/edit.js:208
+msgid "Order by"
+msgstr ""
+
+#: assets/js/editor.blocks.js:846
+#: src/blocks/knowledge-base/category-list/edit.js:211
+msgid "Date"
+msgstr ""
+
+#: assets/js/editor.blocks.js:846
+#: src/blocks/knowledge-base/category-list/edit.js:212
+msgid "Title"
+msgstr ""
+
+#: assets/js/editor.blocks.js:846
+#: src/blocks/knowledge-base/category-list/edit.js:217
+msgid "Sort"
+msgstr ""
+
+#: assets/js/editor.blocks.js:846
+#: src/blocks/knowledge-base/category-list/edit.js:220
+msgid "Descending"
+msgstr ""
+
+#: assets/js/editor.blocks.js:846
+#: src/blocks/knowledge-base/category-list/edit.js:221
+msgid "Ascending"
+msgstr ""
+
+#: assets/js/editor.blocks.js:846
+#: src/blocks/knowledge-base/category-list/edit.js:285
+msgid "Knowledge Base Category List"
+msgstr ""
+
+#: assets/js/editor.blocks.js:860
+#: assets/js/editor.blocks.js:867
+#: assets/js/editor.blocks.js:874
+#: src/blocks/knowledge-base/category-list/layouts/LayoutA.js:81
+#: src/blocks/knowledge-base/category-list/layouts/LayoutB.js:80
+#: src/blocks/knowledge-base/category-list/layouts/LayoutC.js:62
+msgid "There is no posts found!"
+msgstr ""
+
+#: assets/js/editor.blocks.js:888
+#: src/blocks/contact-box/index.js:18
+msgid "Contact Box"
+msgstr ""
+
+#: assets/js/editor.blocks.js:888
+#: src/blocks/contact-box/index.js:19
+msgid "Let your visitors get in touch with your support team"
+msgstr ""
+
+#: assets/js/editor.blocks.js:902
+#: src/blocks/contact-box/edit.js:378
+msgid "Set Icon"
+msgstr ""
+
+#: assets/js/editor.blocks.js:902
+#: assets/js/editor.blocks.js:999
+#: src/blocks/contact-box/edit.js:430
+#: src/blocks/search-box/edit.js:374
+msgid "Set Image"
+msgstr ""
+
+#: assets/js/editor.blocks.js:957
+#: src/blocks/contact-box-button/index.js:15
+msgid "Simple Button"
+msgstr ""
+
+#: assets/js/editor.blocks.js:957
+#: src/blocks/contact-box-button/index.js:16
+msgid "Simple button associated with contact box. Inherit theme color and style"
+msgstr ""
+
+#: assets/js/editor.blocks.js:985
+#: src/blocks/search-box/index.js:19
+msgid "Search Box"
+msgstr ""
+
+#: assets/js/editor.blocks.js:985
+#: src/blocks/search-box/index.js:20
+msgid "Add a powerful search box with a range of styling options"
+msgstr ""
+
+#: assets/js/editor.blocks.js:999
+#: src/blocks/search-box/edit.js:356
+msgid "Enable image"
+msgstr ""
+
+#: assets/js/editor.blocks.js:999
+#: src/blocks/search-box/edit.js:446
+msgid "Button search icon"
+msgstr ""
+
+#: assets/js/editor.blocks.js:999
+#: src/blocks/search-box/edit.js:576
+msgid "Enable Menu"
+msgstr ""
+
+#: assets/js/editor.blocks.js:999
+#: src/blocks/search-box/edit.js:577
+msgid "You can enable and set Quick links menu ( Appearance -> Menus ) to show it under the search form."
+msgstr ""

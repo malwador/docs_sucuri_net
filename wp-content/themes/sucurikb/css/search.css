@@ -1,0 +1,10 @@
+.wedocs-breadcrumb, .wedocs-sidebar,.entry-footer.wedocs-entry-footer,.sucuri-docs-rating-system,.wedocs-print-article {
+    display: none!important;
+}
+.wedocs-single-content {
+    border: 0 !important;
+    width: 100% !important;
+}
+.wedocs-single-wrap{
+    margin-top: 0;
+}
