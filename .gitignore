@@ -1,7 +1,7 @@
 # Git Ignore file for Sucuri.net @ pagely
 
 # WP Configuration
-/wp-config.php
+#/wp-config.php
 # WP Configuration for ddev
 /wp-config-ddev.php 
 # Pagely Database file 
@@ -10,12 +10,12 @@
 /gd-config.php
 
 # Main WP core files (pagely has this hardcoded so we need to exclude these to avoid issues
-/wp-admin/
+/wp-admin
+/wp-includes
 /wp-content/index.php
 /wp-content/languages
 /wp-content/plugins/index.php
 /wp-content/themes/index.php
-/wp-includes/
 /index.php
 /license.txt
 /readme.html
@@ -40,7 +40,7 @@
 
 # other files and directories
 .tmb
-/sucuri-54740af7f910fb69301bd2d010cfd7b0.php
+/sucuri-*.php
 
 #caching
 /wp-content/cache/*
